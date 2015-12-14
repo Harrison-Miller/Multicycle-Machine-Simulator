@@ -1,0 +1,8092 @@
+start: 4194304
+
+//////////
+STATE: 0
+//////////
+Sel: 0
+Out: 4194308
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 1
+IorD: 0
+MemRead: 1
+MemWrite: 0
+IRWrite: 1
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 1
+RegWrite: 0
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194308
+
+IorD
+Sel: 0
+Out: 4194304
+
+Memory
+Address: 4194304
+MemRead: 1 MemWrite: 0
+Data: 571473921
+
+InstructionRegister
+Instruction: 571473921
+
+RegDst
+Sel: 0
+Out: 16
+
+MemtoReg
+Sel: 0
+Out: 4194308
+
+Registers
+ReadReg1: 16 = 0
+ReadReg2: 16 = 0
+
+ALUControl
+Op: 0
+Funct: 1
+
+ALUSrcA
+Sel: 0
+Out: 4194304
+
+Immediate
+value: 1
+
+ALUSrcB
+Sel: 1
+Out: 4
+
+ALU
+A: 4194304 B: 4
+Op: add
+Y: 4194308
+
+PCSource
+Sel: 0
+Out: 4194308
+
+JumpShift
+in: 34603009 out: 138412036
+
+//////////
+STATE: 1
+//////////
+OP: 8
+Sel: 0
+Out: 4194312
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 3
+RegWrite: 0
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194308
+
+IorD
+Sel: 0
+Out: 4194308
+
+Memory
+Address: 4194308
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 571473921
+
+RegDst
+Sel: 0
+Out: 16
+
+MemtoReg
+Sel: 0
+Out: 4194312
+
+Registers
+ReadReg1: 16 = 0
+ReadReg2: 16 = 0
+
+ALUControl
+Op: 0
+Funct: 1
+
+ALUSrcA
+Sel: 0
+Out: 4194308
+
+Immediate
+value: 1
+
+ALUSrcB
+Sel: 3
+Out: 4
+
+ALU
+A: 4194308 B: 4
+Op: add
+Y: 4194312
+
+PCSource
+Sel: 0
+Out: 4194312
+
+JumpShift
+in: 34603009 out: 138412036
+
+//////////
+STATE: 6
+//////////
+Sel: 0
+Out: 1
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 8
+ALUSrcA: 1
+ALUSrcB: 2
+RegWrite: 0
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194308
+
+IorD
+Sel: 0
+Out: 4194308
+
+Memory
+Address: 4194308
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 571473921
+
+RegDst
+Sel: 0
+Out: 16
+
+MemtoReg
+Sel: 0
+Out: 1
+
+Registers
+ReadReg1: 16 = 0
+ReadReg2: 16 = 0
+
+ALUControl
+Op: 8
+Funct: 1
+
+ALUSrcA
+Sel: 1
+Out: 0
+
+Immediate
+value: 1
+
+ALUSrcB
+Sel: 2
+Out: 1
+
+ALU
+A: 0 B: 1
+Op: add
+Y: 1
+
+PCSource
+Sel: 0
+Out: 1
+
+JumpShift
+in: 34603009 out: 138412036
+
+//////////
+STATE: 7
+//////////
+Sel: 0
+Out: 1
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 8
+ALUSrcA: 1
+ALUSrcB: 2
+RegWrite: 1
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194308
+
+IorD
+Sel: 0
+Out: 4194308
+
+Memory
+Address: 4194308
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 571473921
+
+RegDst
+Sel: 0
+Out: 16
+
+MemtoReg
+Sel: 0
+Out: 1
+
+Registers
+WriteReg1: 16 = 1
+
+ALUControl
+Op: 8
+Funct: 1
+
+ALUSrcA
+Sel: 1
+Out: 0
+
+Immediate
+value: 1
+
+ALUSrcB
+Sel: 2
+Out: 1
+
+ALU
+A: 0 B: 1
+Op: add
+Y: 1
+
+PCSource
+Sel: 0
+Out: 1
+
+JumpShift
+in: 34603009 out: 138412036
+
+//////////
+STATE: 0
+//////////
+Sel: 0
+Out: 4194312
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 1
+IorD: 0
+MemRead: 1
+MemWrite: 0
+IRWrite: 1
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 1
+RegWrite: 0
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194312
+
+IorD
+Sel: 0
+Out: 4194308
+
+Memory
+Address: 4194308
+MemRead: 1 MemWrite: 0
+Data: 573636610
+
+InstructionRegister
+Instruction: 573636610
+
+RegDst
+Sel: 0
+Out: 17
+
+MemtoReg
+Sel: 0
+Out: 4194312
+
+Registers
+ReadReg1: 17 = 0
+ReadReg2: 17 = 0
+
+ALUControl
+Op: 0
+Funct: 2
+
+ALUSrcA
+Sel: 0
+Out: 4194308
+
+Immediate
+value: 2
+
+ALUSrcB
+Sel: 1
+Out: 4
+
+ALU
+A: 4194308 B: 4
+Op: add
+Y: 4194312
+
+PCSource
+Sel: 0
+Out: 4194312
+
+JumpShift
+in: 36765698 out: 147062792
+
+//////////
+STATE: 1
+//////////
+OP: 8
+Sel: 0
+Out: 4194320
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 3
+RegWrite: 0
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194312
+
+IorD
+Sel: 0
+Out: 4194312
+
+Memory
+Address: 4194312
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 573636610
+
+RegDst
+Sel: 0
+Out: 17
+
+MemtoReg
+Sel: 0
+Out: 4194320
+
+Registers
+ReadReg1: 17 = 0
+ReadReg2: 17 = 0
+
+ALUControl
+Op: 0
+Funct: 2
+
+ALUSrcA
+Sel: 0
+Out: 4194312
+
+Immediate
+value: 2
+
+ALUSrcB
+Sel: 3
+Out: 8
+
+ALU
+A: 4194312 B: 8
+Op: add
+Y: 4194320
+
+PCSource
+Sel: 0
+Out: 4194320
+
+JumpShift
+in: 36765698 out: 147062792
+
+//////////
+STATE: 6
+//////////
+Sel: 0
+Out: 2
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 8
+ALUSrcA: 1
+ALUSrcB: 2
+RegWrite: 0
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194312
+
+IorD
+Sel: 0
+Out: 4194312
+
+Memory
+Address: 4194312
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 573636610
+
+RegDst
+Sel: 0
+Out: 17
+
+MemtoReg
+Sel: 0
+Out: 2
+
+Registers
+ReadReg1: 17 = 0
+ReadReg2: 17 = 0
+
+ALUControl
+Op: 8
+Funct: 2
+
+ALUSrcA
+Sel: 1
+Out: 0
+
+Immediate
+value: 2
+
+ALUSrcB
+Sel: 2
+Out: 2
+
+ALU
+A: 0 B: 2
+Op: add
+Y: 2
+
+PCSource
+Sel: 0
+Out: 2
+
+JumpShift
+in: 36765698 out: 147062792
+
+//////////
+STATE: 7
+//////////
+Sel: 0
+Out: 2
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 8
+ALUSrcA: 1
+ALUSrcB: 2
+RegWrite: 1
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194312
+
+IorD
+Sel: 0
+Out: 4194312
+
+Memory
+Address: 4194312
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 573636610
+
+RegDst
+Sel: 0
+Out: 17
+
+MemtoReg
+Sel: 0
+Out: 2
+
+Registers
+WriteReg1: 17 = 2
+
+ALUControl
+Op: 8
+Funct: 2
+
+ALUSrcA
+Sel: 1
+Out: 0
+
+Immediate
+value: 2
+
+ALUSrcB
+Sel: 2
+Out: 2
+
+ALU
+A: 0 B: 2
+Op: add
+Y: 2
+
+PCSource
+Sel: 0
+Out: 2
+
+JumpShift
+in: 36765698 out: 147062792
+
+//////////
+STATE: 0
+//////////
+Sel: 0
+Out: 4194316
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 1
+IorD: 0
+MemRead: 1
+MemWrite: 0
+IRWrite: 1
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 1
+RegWrite: 0
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194316
+
+IorD
+Sel: 0
+Out: 4194312
+
+Memory
+Address: 4194312
+MemRead: 1 MemWrite: 0
+Data: 575799299
+
+InstructionRegister
+Instruction: 575799299
+
+RegDst
+Sel: 0
+Out: 18
+
+MemtoReg
+Sel: 0
+Out: 4194316
+
+Registers
+ReadReg1: 18 = 0
+ReadReg2: 18 = 0
+
+ALUControl
+Op: 0
+Funct: 3
+
+ALUSrcA
+Sel: 0
+Out: 4194312
+
+Immediate
+value: 3
+
+ALUSrcB
+Sel: 1
+Out: 4
+
+ALU
+A: 4194312 B: 4
+Op: add
+Y: 4194316
+
+PCSource
+Sel: 0
+Out: 4194316
+
+JumpShift
+in: 38928387 out: 155713548
+
+//////////
+STATE: 1
+//////////
+OP: 8
+Sel: 0
+Out: 4194328
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 3
+RegWrite: 0
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194316
+
+IorD
+Sel: 0
+Out: 4194316
+
+Memory
+Address: 4194316
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 575799299
+
+RegDst
+Sel: 0
+Out: 18
+
+MemtoReg
+Sel: 0
+Out: 4194328
+
+Registers
+ReadReg1: 18 = 0
+ReadReg2: 18 = 0
+
+ALUControl
+Op: 0
+Funct: 3
+
+ALUSrcA
+Sel: 0
+Out: 4194316
+
+Immediate
+value: 3
+
+ALUSrcB
+Sel: 3
+Out: 12
+
+ALU
+A: 4194316 B: 12
+Op: add
+Y: 4194328
+
+PCSource
+Sel: 0
+Out: 4194328
+
+JumpShift
+in: 38928387 out: 155713548
+
+//////////
+STATE: 6
+//////////
+Sel: 0
+Out: 3
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 8
+ALUSrcA: 1
+ALUSrcB: 2
+RegWrite: 0
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194316
+
+IorD
+Sel: 0
+Out: 4194316
+
+Memory
+Address: 4194316
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 575799299
+
+RegDst
+Sel: 0
+Out: 18
+
+MemtoReg
+Sel: 0
+Out: 3
+
+Registers
+ReadReg1: 18 = 0
+ReadReg2: 18 = 0
+
+ALUControl
+Op: 8
+Funct: 3
+
+ALUSrcA
+Sel: 1
+Out: 0
+
+Immediate
+value: 3
+
+ALUSrcB
+Sel: 2
+Out: 3
+
+ALU
+A: 0 B: 3
+Op: add
+Y: 3
+
+PCSource
+Sel: 0
+Out: 3
+
+JumpShift
+in: 38928387 out: 155713548
+
+//////////
+STATE: 7
+//////////
+Sel: 0
+Out: 3
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 8
+ALUSrcA: 1
+ALUSrcB: 2
+RegWrite: 1
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194316
+
+IorD
+Sel: 0
+Out: 4194316
+
+Memory
+Address: 4194316
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 575799299
+
+RegDst
+Sel: 0
+Out: 18
+
+MemtoReg
+Sel: 0
+Out: 3
+
+Registers
+WriteReg1: 18 = 3
+
+ALUControl
+Op: 8
+Funct: 3
+
+ALUSrcA
+Sel: 1
+Out: 0
+
+Immediate
+value: 3
+
+ALUSrcB
+Sel: 2
+Out: 3
+
+ALU
+A: 0 B: 3
+Op: add
+Y: 3
+
+PCSource
+Sel: 0
+Out: 3
+
+JumpShift
+in: 38928387 out: 155713548
+
+//////////
+STATE: 0
+//////////
+Sel: 0
+Out: 4194320
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 1
+IorD: 0
+MemRead: 1
+MemWrite: 0
+IRWrite: 1
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 1
+RegWrite: 0
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194320
+
+IorD
+Sel: 0
+Out: 4194316
+
+Memory
+Address: 4194316
+MemRead: 1 MemWrite: 0
+Data: 577961988
+
+InstructionRegister
+Instruction: 577961988
+
+RegDst
+Sel: 0
+Out: 19
+
+MemtoReg
+Sel: 0
+Out: 4194320
+
+Registers
+ReadReg1: 19 = 0
+ReadReg2: 19 = 0
+
+ALUControl
+Op: 0
+Funct: 4
+
+ALUSrcA
+Sel: 0
+Out: 4194316
+
+Immediate
+value: 4
+
+ALUSrcB
+Sel: 1
+Out: 4
+
+ALU
+A: 4194316 B: 4
+Op: add
+Y: 4194320
+
+PCSource
+Sel: 0
+Out: 4194320
+
+JumpShift
+in: 41091076 out: 164364304
+
+//////////
+STATE: 1
+//////////
+OP: 8
+Sel: 0
+Out: 4194336
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 3
+RegWrite: 0
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194320
+
+IorD
+Sel: 0
+Out: 4194320
+
+Memory
+Address: 4194320
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 577961988
+
+RegDst
+Sel: 0
+Out: 19
+
+MemtoReg
+Sel: 0
+Out: 4194336
+
+Registers
+ReadReg1: 19 = 0
+ReadReg2: 19 = 0
+
+ALUControl
+Op: 0
+Funct: 4
+
+ALUSrcA
+Sel: 0
+Out: 4194320
+
+Immediate
+value: 4
+
+ALUSrcB
+Sel: 3
+Out: 16
+
+ALU
+A: 4194320 B: 16
+Op: add
+Y: 4194336
+
+PCSource
+Sel: 0
+Out: 4194336
+
+JumpShift
+in: 41091076 out: 164364304
+
+//////////
+STATE: 6
+//////////
+Sel: 0
+Out: 4
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 8
+ALUSrcA: 1
+ALUSrcB: 2
+RegWrite: 0
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194320
+
+IorD
+Sel: 0
+Out: 4194320
+
+Memory
+Address: 4194320
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 577961988
+
+RegDst
+Sel: 0
+Out: 19
+
+MemtoReg
+Sel: 0
+Out: 4
+
+Registers
+ReadReg1: 19 = 0
+ReadReg2: 19 = 0
+
+ALUControl
+Op: 8
+Funct: 4
+
+ALUSrcA
+Sel: 1
+Out: 0
+
+Immediate
+value: 4
+
+ALUSrcB
+Sel: 2
+Out: 4
+
+ALU
+A: 0 B: 4
+Op: add
+Y: 4
+
+PCSource
+Sel: 0
+Out: 4
+
+JumpShift
+in: 41091076 out: 164364304
+
+//////////
+STATE: 7
+//////////
+Sel: 0
+Out: 4
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 8
+ALUSrcA: 1
+ALUSrcB: 2
+RegWrite: 1
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194320
+
+IorD
+Sel: 0
+Out: 4194320
+
+Memory
+Address: 4194320
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 577961988
+
+RegDst
+Sel: 0
+Out: 19
+
+MemtoReg
+Sel: 0
+Out: 4
+
+Registers
+WriteReg1: 19 = 4
+
+ALUControl
+Op: 8
+Funct: 4
+
+ALUSrcA
+Sel: 1
+Out: 0
+
+Immediate
+value: 4
+
+ALUSrcB
+Sel: 2
+Out: 4
+
+ALU
+A: 0 B: 4
+Op: add
+Y: 4
+
+PCSource
+Sel: 0
+Out: 4
+
+JumpShift
+in: 41091076 out: 164364304
+
+//////////
+STATE: 0
+//////////
+Sel: 0
+Out: 4194324
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 1
+IorD: 0
+MemRead: 1
+MemWrite: 0
+IRWrite: 1
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 1
+RegWrite: 0
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194324
+
+IorD
+Sel: 0
+Out: 4194320
+
+Memory
+Address: 4194320
+MemRead: 1 MemWrite: 0
+Data: 580124677
+
+InstructionRegister
+Instruction: 580124677
+
+RegDst
+Sel: 0
+Out: 20
+
+MemtoReg
+Sel: 0
+Out: 4194324
+
+Registers
+ReadReg1: 20 = 0
+ReadReg2: 20 = 0
+
+ALUControl
+Op: 0
+Funct: 5
+
+ALUSrcA
+Sel: 0
+Out: 4194320
+
+Immediate
+value: 5
+
+ALUSrcB
+Sel: 1
+Out: 4
+
+ALU
+A: 4194320 B: 4
+Op: add
+Y: 4194324
+
+PCSource
+Sel: 0
+Out: 4194324
+
+JumpShift
+in: 43253765 out: 173015060
+
+//////////
+STATE: 1
+//////////
+OP: 8
+Sel: 0
+Out: 4194344
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 3
+RegWrite: 0
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194324
+
+IorD
+Sel: 0
+Out: 4194324
+
+Memory
+Address: 4194324
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 580124677
+
+RegDst
+Sel: 0
+Out: 20
+
+MemtoReg
+Sel: 0
+Out: 4194344
+
+Registers
+ReadReg1: 20 = 0
+ReadReg2: 20 = 0
+
+ALUControl
+Op: 0
+Funct: 5
+
+ALUSrcA
+Sel: 0
+Out: 4194324
+
+Immediate
+value: 5
+
+ALUSrcB
+Sel: 3
+Out: 20
+
+ALU
+A: 4194324 B: 20
+Op: add
+Y: 4194344
+
+PCSource
+Sel: 0
+Out: 4194344
+
+JumpShift
+in: 43253765 out: 173015060
+
+//////////
+STATE: 6
+//////////
+Sel: 0
+Out: 5
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 8
+ALUSrcA: 1
+ALUSrcB: 2
+RegWrite: 0
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194324
+
+IorD
+Sel: 0
+Out: 4194324
+
+Memory
+Address: 4194324
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 580124677
+
+RegDst
+Sel: 0
+Out: 20
+
+MemtoReg
+Sel: 0
+Out: 5
+
+Registers
+ReadReg1: 20 = 0
+ReadReg2: 20 = 0
+
+ALUControl
+Op: 8
+Funct: 5
+
+ALUSrcA
+Sel: 1
+Out: 0
+
+Immediate
+value: 5
+
+ALUSrcB
+Sel: 2
+Out: 5
+
+ALU
+A: 0 B: 5
+Op: add
+Y: 5
+
+PCSource
+Sel: 0
+Out: 5
+
+JumpShift
+in: 43253765 out: 173015060
+
+//////////
+STATE: 7
+//////////
+Sel: 0
+Out: 5
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 8
+ALUSrcA: 1
+ALUSrcB: 2
+RegWrite: 1
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194324
+
+IorD
+Sel: 0
+Out: 4194324
+
+Memory
+Address: 4194324
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 580124677
+
+RegDst
+Sel: 0
+Out: 20
+
+MemtoReg
+Sel: 0
+Out: 5
+
+Registers
+WriteReg1: 20 = 5
+
+ALUControl
+Op: 8
+Funct: 5
+
+ALUSrcA
+Sel: 1
+Out: 0
+
+Immediate
+value: 5
+
+ALUSrcB
+Sel: 2
+Out: 5
+
+ALU
+A: 0 B: 5
+Op: add
+Y: 5
+
+PCSource
+Sel: 0
+Out: 5
+
+JumpShift
+in: 43253765 out: 173015060
+
+//////////
+STATE: 0
+//////////
+Sel: 0
+Out: 4194328
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 1
+IorD: 0
+MemRead: 1
+MemWrite: 0
+IRWrite: 1
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 1
+RegWrite: 0
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194328
+
+IorD
+Sel: 0
+Out: 4194324
+
+Memory
+Address: 4194324
+MemRead: 1 MemWrite: 0
+Data: 43139111
+
+InstructionRegister
+Instruction: 43139111
+
+RegDst
+Sel: 0
+Out: 18
+
+MemtoReg
+Sel: 0
+Out: 4194328
+
+Registers
+ReadReg1: 20 = 5
+ReadReg2: 18 = 3
+
+ALUControl
+Op: 0
+Funct: 39
+
+ALUSrcA
+Sel: 0
+Out: 4194324
+
+Immediate
+value: 16423
+
+ALUSrcB
+Sel: 1
+Out: 4
+
+ALU
+A: 4194324 B: 4
+Op: add
+Y: 4194328
+
+PCSource
+Sel: 0
+Out: 4194328
+
+JumpShift
+in: 43139111 out: 172556444
+
+//////////
+STATE: 1
+//////////
+OP: 0
+Sel: 0
+Out: 4260020
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 3
+RegWrite: 0
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194328
+
+IorD
+Sel: 0
+Out: 4194328
+
+Memory
+Address: 4194328
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 43139111
+
+RegDst
+Sel: 0
+Out: 18
+
+MemtoReg
+Sel: 0
+Out: 4260020
+
+Registers
+ReadReg1: 20 = 5
+ReadReg2: 18 = 3
+
+ALUControl
+Op: 0
+Funct: 39
+
+ALUSrcA
+Sel: 0
+Out: 4194328
+
+Immediate
+value: 16423
+
+ALUSrcB
+Sel: 3
+Out: 65692
+
+ALU
+A: 4194328 B: 65692
+Op: add
+Y: 4260020
+
+PCSource
+Sel: 0
+Out: 4260020
+
+JumpShift
+in: 43139111 out: 172556444
+
+//////////
+STATE: 6
+//////////
+Sel: 0
+Out: -8
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 2
+ALUSrcA: 1
+ALUSrcB: 0
+RegWrite: 0
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194328
+
+IorD
+Sel: 0
+Out: 4194328
+
+Memory
+Address: 4194328
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 43139111
+
+RegDst
+Sel: 0
+Out: 18
+
+MemtoReg
+Sel: 0
+Out: -8
+
+Registers
+ReadReg1: 20 = 5
+ReadReg2: 18 = 3
+
+ALUControl
+Op: 2
+Funct: 39
+
+ALUSrcA
+Sel: 1
+Out: 5
+
+Immediate
+value: 16423
+
+ALUSrcB
+Sel: 0
+Out: 3
+
+ALU
+A: 5 B: 3
+Op: nor
+Y: -8
+
+PCSource
+Sel: 0
+Out: -8
+
+JumpShift
+in: 43139111 out: 172556444
+
+//////////
+STATE: 7
+//////////
+Sel: 0
+Out: -8
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 2
+ALUSrcA: 1
+ALUSrcB: 0
+RegWrite: 1
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194328
+
+IorD
+Sel: 0
+Out: 4194328
+
+Memory
+Address: 4194328
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 43139111
+
+RegDst
+Sel: 1
+Out: 8
+
+MemtoReg
+Sel: 0
+Out: -8
+
+Registers
+WriteReg1: 8 = -8
+
+ALUControl
+Op: 2
+Funct: 39
+
+ALUSrcA
+Sel: 1
+Out: 5
+
+Immediate
+value: 16423
+
+ALUSrcB
+Sel: 0
+Out: 3
+
+ALU
+A: 5 B: 3
+Op: nor
+Y: -8
+
+PCSource
+Sel: 0
+Out: -8
+
+JumpShift
+in: 43139111 out: 172556444
+
+//////////
+STATE: 0
+//////////
+Sel: 0
+Out: 4194332
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 1
+IorD: 0
+MemRead: 1
+MemWrite: 0
+IRWrite: 1
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 1
+RegWrite: 0
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194332
+
+IorD
+Sel: 0
+Out: 4194328
+
+Memory
+Address: 4194328
+MemRead: 1 MemWrite: 0
+Data: 843579397
+
+InstructionRegister
+Instruction: 843579397
+
+RegDst
+Sel: 1
+Out: 0
+
+MemtoReg
+Sel: 0
+Out: 4194332
+
+Registers
+ReadReg1: 18 = 3
+ReadReg2: 8 = -8
+
+ALUControl
+Op: 0
+Funct: 5
+
+ALUSrcA
+Sel: 0
+Out: 4194328
+
+Immediate
+value: 5
+
+ALUSrcB
+Sel: 1
+Out: 4
+
+ALU
+A: 4194328 B: 4
+Op: add
+Y: 4194332
+
+PCSource
+Sel: 0
+Out: 4194332
+
+JumpShift
+in: 38273029 out: 153092116
+
+//////////
+STATE: 1
+//////////
+OP: 12
+Sel: 0
+Out: 4194352
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 3
+RegWrite: 0
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194332
+
+IorD
+Sel: 0
+Out: 4194332
+
+Memory
+Address: 4194332
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 843579397
+
+RegDst
+Sel: 1
+Out: 0
+
+MemtoReg
+Sel: 0
+Out: 4194352
+
+Registers
+ReadReg1: 18 = 3
+ReadReg2: 8 = -8
+
+ALUControl
+Op: 0
+Funct: 5
+
+ALUSrcA
+Sel: 0
+Out: 4194332
+
+Immediate
+value: 5
+
+ALUSrcB
+Sel: 3
+Out: 20
+
+ALU
+A: 4194332 B: 20
+Op: add
+Y: 4194352
+
+PCSource
+Sel: 0
+Out: 4194352
+
+JumpShift
+in: 38273029 out: 153092116
+
+//////////
+STATE: 6
+//////////
+Sel: 0
+Out: 1
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 12
+ALUSrcA: 1
+ALUSrcB: 2
+RegWrite: 0
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194332
+
+IorD
+Sel: 0
+Out: 4194332
+
+Memory
+Address: 4194332
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 843579397
+
+RegDst
+Sel: 1
+Out: 0
+
+MemtoReg
+Sel: 0
+Out: 1
+
+Registers
+ReadReg1: 18 = 3
+ReadReg2: 8 = -8
+
+ALUControl
+Op: 12
+Funct: 5
+
+ALUSrcA
+Sel: 1
+Out: 3
+
+Immediate
+value: 5
+
+ALUSrcB
+Sel: 2
+Out: 5
+
+ALU
+A: 3 B: 5
+Op: and
+Y: 1
+
+PCSource
+Sel: 0
+Out: 1
+
+JumpShift
+in: 38273029 out: 153092116
+
+//////////
+STATE: 7
+//////////
+Sel: 0
+Out: 1
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 12
+ALUSrcA: 1
+ALUSrcB: 2
+RegWrite: 1
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194332
+
+IorD
+Sel: 0
+Out: 4194332
+
+Memory
+Address: 4194332
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 843579397
+
+RegDst
+Sel: 0
+Out: 8
+
+MemtoReg
+Sel: 0
+Out: 1
+
+Registers
+WriteReg1: 8 = 1
+
+ALUControl
+Op: 12
+Funct: 5
+
+ALUSrcA
+Sel: 1
+Out: 3
+
+Immediate
+value: 5
+
+ALUSrcB
+Sel: 2
+Out: 5
+
+ALU
+A: 3 B: 5
+Op: and
+Y: 1
+
+PCSource
+Sel: 0
+Out: 1
+
+JumpShift
+in: 38273029 out: 153092116
+
+//////////
+STATE: 0
+//////////
+Sel: 0
+Out: 4194336
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 1
+IorD: 0
+MemRead: 1
+MemWrite: 0
+IRWrite: 1
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 1
+RegWrite: 0
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194336
+
+IorD
+Sel: 0
+Out: 4194332
+
+Memory
+Address: 4194332
+MemRead: 1 MemWrite: 0
+Data: 43141156
+
+InstructionRegister
+Instruction: 43141156
+
+RegDst
+Sel: 0
+Out: 18
+
+MemtoReg
+Sel: 0
+Out: 4194336
+
+Registers
+ReadReg1: 20 = 5
+ReadReg2: 18 = 3
+
+ALUControl
+Op: 0
+Funct: 36
+
+ALUSrcA
+Sel: 0
+Out: 4194332
+
+Immediate
+value: 18468
+
+ALUSrcB
+Sel: 1
+Out: 4
+
+ALU
+A: 4194332 B: 4
+Op: add
+Y: 4194336
+
+PCSource
+Sel: 0
+Out: 4194336
+
+JumpShift
+in: 43141156 out: 172564624
+
+//////////
+STATE: 1
+//////////
+OP: 0
+Sel: 0
+Out: 4268208
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 3
+RegWrite: 0
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194336
+
+IorD
+Sel: 0
+Out: 4194336
+
+Memory
+Address: 4194336
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 43141156
+
+RegDst
+Sel: 0
+Out: 18
+
+MemtoReg
+Sel: 0
+Out: 4268208
+
+Registers
+ReadReg1: 20 = 5
+ReadReg2: 18 = 3
+
+ALUControl
+Op: 0
+Funct: 36
+
+ALUSrcA
+Sel: 0
+Out: 4194336
+
+Immediate
+value: 18468
+
+ALUSrcB
+Sel: 3
+Out: 73872
+
+ALU
+A: 4194336 B: 73872
+Op: add
+Y: 4268208
+
+PCSource
+Sel: 0
+Out: 4268208
+
+JumpShift
+in: 43141156 out: 172564624
+
+//////////
+STATE: 6
+//////////
+Sel: 0
+Out: 1
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 2
+ALUSrcA: 1
+ALUSrcB: 0
+RegWrite: 0
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194336
+
+IorD
+Sel: 0
+Out: 4194336
+
+Memory
+Address: 4194336
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 43141156
+
+RegDst
+Sel: 0
+Out: 18
+
+MemtoReg
+Sel: 0
+Out: 1
+
+Registers
+ReadReg1: 20 = 5
+ReadReg2: 18 = 3
+
+ALUControl
+Op: 2
+Funct: 36
+
+ALUSrcA
+Sel: 1
+Out: 5
+
+Immediate
+value: 18468
+
+ALUSrcB
+Sel: 0
+Out: 3
+
+ALU
+A: 5 B: 3
+Op: and
+Y: 1
+
+PCSource
+Sel: 0
+Out: 1
+
+JumpShift
+in: 43141156 out: 172564624
+
+//////////
+STATE: 7
+//////////
+Sel: 0
+Out: 1
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 2
+ALUSrcA: 1
+ALUSrcB: 0
+RegWrite: 1
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194336
+
+IorD
+Sel: 0
+Out: 4194336
+
+Memory
+Address: 4194336
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 43141156
+
+RegDst
+Sel: 1
+Out: 9
+
+MemtoReg
+Sel: 0
+Out: 1
+
+Registers
+WriteReg1: 9 = 1
+
+ALUControl
+Op: 2
+Funct: 36
+
+ALUSrcA
+Sel: 1
+Out: 5
+
+Immediate
+value: 18468
+
+ALUSrcB
+Sel: 0
+Out: 3
+
+ALU
+A: 5 B: 3
+Op: and
+Y: 1
+
+PCSource
+Sel: 0
+Out: 1
+
+JumpShift
+in: 43141156 out: 172564624
+
+//////////
+STATE: 0
+//////////
+Sel: 0
+Out: 4194340
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 1
+IorD: 0
+MemRead: 1
+MemWrite: 0
+IRWrite: 1
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 1
+RegWrite: 0
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194340
+
+IorD
+Sel: 0
+Out: 4194336
+
+Memory
+Address: 4194336
+MemRead: 1 MemWrite: 0
+Data: 910688259
+
+InstructionRegister
+Instruction: 910688259
+
+RegDst
+Sel: 1
+Out: 0
+
+MemtoReg
+Sel: 0
+Out: 4194340
+
+Registers
+ReadReg1: 18 = 3
+ReadReg2: 8 = 1
+
+ALUControl
+Op: 0
+Funct: 3
+
+ALUSrcA
+Sel: 0
+Out: 4194336
+
+Immediate
+value: 3
+
+ALUSrcB
+Sel: 1
+Out: 4
+
+ALU
+A: 4194336 B: 4
+Op: add
+Y: 4194340
+
+PCSource
+Sel: 0
+Out: 4194340
+
+JumpShift
+in: 38273027 out: 153092108
+
+//////////
+STATE: 1
+//////////
+OP: 13
+Sel: 0
+Out: 4194352
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 3
+RegWrite: 0
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194340
+
+IorD
+Sel: 0
+Out: 4194340
+
+Memory
+Address: 4194340
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 910688259
+
+RegDst
+Sel: 1
+Out: 0
+
+MemtoReg
+Sel: 0
+Out: 4194352
+
+Registers
+ReadReg1: 18 = 3
+ReadReg2: 8 = 1
+
+ALUControl
+Op: 0
+Funct: 3
+
+ALUSrcA
+Sel: 0
+Out: 4194340
+
+Immediate
+value: 3
+
+ALUSrcB
+Sel: 3
+Out: 12
+
+ALU
+A: 4194340 B: 12
+Op: add
+Y: 4194352
+
+PCSource
+Sel: 0
+Out: 4194352
+
+JumpShift
+in: 38273027 out: 153092108
+
+//////////
+STATE: 6
+//////////
+Sel: 0
+Out: 3
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 13
+ALUSrcA: 1
+ALUSrcB: 2
+RegWrite: 0
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194340
+
+IorD
+Sel: 0
+Out: 4194340
+
+Memory
+Address: 4194340
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 910688259
+
+RegDst
+Sel: 1
+Out: 0
+
+MemtoReg
+Sel: 0
+Out: 3
+
+Registers
+ReadReg1: 18 = 3
+ReadReg2: 8 = 1
+
+ALUControl
+Op: 13
+Funct: 3
+
+ALUSrcA
+Sel: 1
+Out: 3
+
+Immediate
+value: 3
+
+ALUSrcB
+Sel: 2
+Out: 3
+
+ALU
+A: 3 B: 3
+Op: or
+Y: 3
+
+PCSource
+Sel: 0
+Out: 3
+
+JumpShift
+in: 38273027 out: 153092108
+
+//////////
+STATE: 7
+//////////
+Sel: 0
+Out: 3
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 13
+ALUSrcA: 1
+ALUSrcB: 2
+RegWrite: 1
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194340
+
+IorD
+Sel: 0
+Out: 4194340
+
+Memory
+Address: 4194340
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 910688259
+
+RegDst
+Sel: 0
+Out: 8
+
+MemtoReg
+Sel: 0
+Out: 3
+
+Registers
+WriteReg1: 8 = 3
+
+ALUControl
+Op: 13
+Funct: 3
+
+ALUSrcA
+Sel: 1
+Out: 3
+
+Immediate
+value: 3
+
+ALUSrcB
+Sel: 2
+Out: 3
+
+ALU
+A: 3 B: 3
+Op: or
+Y: 3
+
+PCSource
+Sel: 0
+Out: 3
+
+JumpShift
+in: 38273027 out: 153092108
+
+//////////
+STATE: 0
+//////////
+Sel: 0
+Out: 4194344
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 1
+IorD: 0
+MemRead: 1
+MemWrite: 0
+IRWrite: 1
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 1
+RegWrite: 0
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194344
+
+IorD
+Sel: 0
+Out: 4194340
+
+Memory
+Address: 4194340
+MemRead: 1 MemWrite: 0
+Data: 43141157
+
+InstructionRegister
+Instruction: 43141157
+
+RegDst
+Sel: 0
+Out: 18
+
+MemtoReg
+Sel: 0
+Out: 4194344
+
+Registers
+ReadReg1: 20 = 5
+ReadReg2: 18 = 3
+
+ALUControl
+Op: 0
+Funct: 37
+
+ALUSrcA
+Sel: 0
+Out: 4194340
+
+Immediate
+value: 18469
+
+ALUSrcB
+Sel: 1
+Out: 4
+
+ALU
+A: 4194340 B: 4
+Op: add
+Y: 4194344
+
+PCSource
+Sel: 0
+Out: 4194344
+
+JumpShift
+in: 43141157 out: 172564628
+
+//////////
+STATE: 1
+//////////
+OP: 0
+Sel: 0
+Out: 4268220
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 3
+RegWrite: 0
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194344
+
+IorD
+Sel: 0
+Out: 4194344
+
+Memory
+Address: 4194344
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 43141157
+
+RegDst
+Sel: 0
+Out: 18
+
+MemtoReg
+Sel: 0
+Out: 4268220
+
+Registers
+ReadReg1: 20 = 5
+ReadReg2: 18 = 3
+
+ALUControl
+Op: 0
+Funct: 37
+
+ALUSrcA
+Sel: 0
+Out: 4194344
+
+Immediate
+value: 18469
+
+ALUSrcB
+Sel: 3
+Out: 73876
+
+ALU
+A: 4194344 B: 73876
+Op: add
+Y: 4268220
+
+PCSource
+Sel: 0
+Out: 4268220
+
+JumpShift
+in: 43141157 out: 172564628
+
+//////////
+STATE: 6
+//////////
+Sel: 0
+Out: 7
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 2
+ALUSrcA: 1
+ALUSrcB: 0
+RegWrite: 0
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194344
+
+IorD
+Sel: 0
+Out: 4194344
+
+Memory
+Address: 4194344
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 43141157
+
+RegDst
+Sel: 0
+Out: 18
+
+MemtoReg
+Sel: 0
+Out: 7
+
+Registers
+ReadReg1: 20 = 5
+ReadReg2: 18 = 3
+
+ALUControl
+Op: 2
+Funct: 37
+
+ALUSrcA
+Sel: 1
+Out: 5
+
+Immediate
+value: 18469
+
+ALUSrcB
+Sel: 0
+Out: 3
+
+ALU
+A: 5 B: 3
+Op: or
+Y: 7
+
+PCSource
+Sel: 0
+Out: 7
+
+JumpShift
+in: 43141157 out: 172564628
+
+//////////
+STATE: 7
+//////////
+Sel: 0
+Out: 7
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 2
+ALUSrcA: 1
+ALUSrcB: 0
+RegWrite: 1
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194344
+
+IorD
+Sel: 0
+Out: 4194344
+
+Memory
+Address: 4194344
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 43141157
+
+RegDst
+Sel: 1
+Out: 9
+
+MemtoReg
+Sel: 0
+Out: 7
+
+Registers
+WriteReg1: 9 = 7
+
+ALUControl
+Op: 2
+Funct: 37
+
+ALUSrcA
+Sel: 1
+Out: 5
+
+Immediate
+value: 18469
+
+ALUSrcB
+Sel: 0
+Out: 3
+
+ALU
+A: 5 B: 3
+Op: or
+Y: 7
+
+PCSource
+Sel: 0
+Out: 7
+
+JumpShift
+in: 43141157 out: 172564628
+
+//////////
+STATE: 0
+//////////
+Sel: 0
+Out: 4194348
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 1
+IorD: 0
+MemRead: 1
+MemWrite: 0
+IRWrite: 1
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 1
+RegWrite: 0
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194348
+
+IorD
+Sel: 0
+Out: 4194344
+
+Memory
+Address: 4194344
+MemRead: 1 MemWrite: 0
+Data: 34684960
+
+InstructionRegister
+Instruction: 34684960
+
+RegDst
+Sel: 1
+Out: 8
+
+MemtoReg
+Sel: 0
+Out: 4194348
+
+Registers
+ReadReg1: 16 = 1
+ReadReg2: 17 = 2
+
+ALUControl
+Op: 0
+Funct: 32
+
+ALUSrcA
+Sel: 0
+Out: 4194344
+
+Immediate
+value: 16416
+
+ALUSrcB
+Sel: 1
+Out: 4
+
+ALU
+A: 4194344 B: 4
+Op: add
+Y: 4194348
+
+PCSource
+Sel: 0
+Out: 4194348
+
+JumpShift
+in: 34684960 out: 138739840
+
+//////////
+STATE: 1
+//////////
+OP: 0
+Sel: 0
+Out: 4260012
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 3
+RegWrite: 0
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194348
+
+IorD
+Sel: 0
+Out: 4194348
+
+Memory
+Address: 4194348
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 34684960
+
+RegDst
+Sel: 1
+Out: 8
+
+MemtoReg
+Sel: 0
+Out: 4260012
+
+Registers
+ReadReg1: 16 = 1
+ReadReg2: 17 = 2
+
+ALUControl
+Op: 0
+Funct: 32
+
+ALUSrcA
+Sel: 0
+Out: 4194348
+
+Immediate
+value: 16416
+
+ALUSrcB
+Sel: 3
+Out: 65664
+
+ALU
+A: 4194348 B: 65664
+Op: add
+Y: 4260012
+
+PCSource
+Sel: 0
+Out: 4260012
+
+JumpShift
+in: 34684960 out: 138739840
+
+//////////
+STATE: 6
+//////////
+Sel: 0
+Out: 3
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 2
+ALUSrcA: 1
+ALUSrcB: 0
+RegWrite: 0
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194348
+
+IorD
+Sel: 0
+Out: 4194348
+
+Memory
+Address: 4194348
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 34684960
+
+RegDst
+Sel: 1
+Out: 8
+
+MemtoReg
+Sel: 0
+Out: 3
+
+Registers
+ReadReg1: 16 = 1
+ReadReg2: 17 = 2
+
+ALUControl
+Op: 2
+Funct: 32
+
+ALUSrcA
+Sel: 1
+Out: 1
+
+Immediate
+value: 16416
+
+ALUSrcB
+Sel: 0
+Out: 2
+
+ALU
+A: 1 B: 2
+Op: add
+Y: 3
+
+PCSource
+Sel: 0
+Out: 3
+
+JumpShift
+in: 34684960 out: 138739840
+
+//////////
+STATE: 7
+//////////
+Sel: 0
+Out: 3
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 2
+ALUSrcA: 1
+ALUSrcB: 0
+RegWrite: 1
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194348
+
+IorD
+Sel: 0
+Out: 4194348
+
+Memory
+Address: 4194348
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 34684960
+
+RegDst
+Sel: 1
+Out: 8
+
+MemtoReg
+Sel: 0
+Out: 3
+
+Registers
+WriteReg1: 8 = 3
+
+ALUControl
+Op: 2
+Funct: 32
+
+ALUSrcA
+Sel: 1
+Out: 1
+
+Immediate
+value: 16416
+
+ALUSrcB
+Sel: 0
+Out: 2
+
+ALU
+A: 1 B: 2
+Op: add
+Y: 3
+
+PCSource
+Sel: 0
+Out: 3
+
+JumpShift
+in: 34684960 out: 138739840
+
+//////////
+STATE: 0
+//////////
+Sel: 0
+Out: 4194352
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 1
+IorD: 0
+MemRead: 1
+MemWrite: 0
+IRWrite: 1
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 1
+RegWrite: 0
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194352
+
+IorD
+Sel: 0
+Out: 4194348
+
+Memory
+Address: 4194348
+MemRead: 1 MemWrite: 0
+Data: 286392322
+
+InstructionRegister
+Instruction: 286392322
+
+RegDst
+Sel: 1
+Out: 0
+
+MemtoReg
+Sel: 0
+Out: 4194352
+
+Registers
+ReadReg1: 8 = 3
+ReadReg2: 18 = 3
+
+ALUControl
+Op: 0
+Funct: 2
+
+ALUSrcA
+Sel: 0
+Out: 4194348
+
+Immediate
+value: 2
+
+ALUSrcB
+Sel: 1
+Out: 4
+
+ALU
+A: 4194348 B: 4
+Op: add
+Y: 4194352
+
+PCSource
+Sel: 0
+Out: 4194352
+
+JumpShift
+in: 17956866 out: 71827464
+
+//////////
+STATE: 1
+//////////
+OP: 4
+Sel: 0
+Out: 4194360
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 3
+RegWrite: 0
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194352
+
+IorD
+Sel: 0
+Out: 4194352
+
+Memory
+Address: 4194352
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 286392322
+
+RegDst
+Sel: 1
+Out: 0
+
+MemtoReg
+Sel: 0
+Out: 4194360
+
+Registers
+ReadReg1: 8 = 3
+ReadReg2: 18 = 3
+
+ALUControl
+Op: 0
+Funct: 2
+
+ALUSrcA
+Sel: 0
+Out: 4194352
+
+Immediate
+value: 2
+
+ALUSrcB
+Sel: 3
+Out: 8
+
+ALU
+A: 4194352 B: 8
+Op: add
+Y: 4194360
+
+PCSource
+Sel: 0
+Out: 4194360
+
+JumpShift
+in: 17956866 out: 71827464
+
+//////////
+STATE: 8
+//////////
+Sel: 1
+Out: 4194360
+
+Control Unit
+PCWriteCond: 1
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 1
+ALUOp: 1
+ALUSrcA: 1
+ALUSrcB: 0
+RegWrite: 0
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194360
+
+IorD
+Sel: 0
+Out: 4194352
+
+Memory
+Address: 4194352
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 286392322
+
+RegDst
+Sel: 1
+Out: 0
+
+MemtoReg
+Sel: 0
+Out: 0
+
+Registers
+ReadReg1: 8 = 3
+ReadReg2: 18 = 3
+
+ALUControl
+Op: 1
+Funct: 2
+
+ALUSrcA
+Sel: 1
+Out: 3
+
+Immediate
+value: 2
+
+ALUSrcB
+Sel: 0
+Out: 3
+
+ALU
+A: 3 B: 3
+Op: sub
+Y: 0
+
+PCSource
+Sel: 1
+Out: 0
+
+JumpShift
+in: 17956866 out: 71827464
+
+//////////
+STATE: 0
+//////////
+Sel: 0
+Out: 4194364
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 1
+IorD: 0
+MemRead: 1
+MemWrite: 0
+IRWrite: 1
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 1
+RegWrite: 0
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194364
+
+IorD
+Sel: 0
+Out: 4194360
+
+Memory
+Address: 4194360
+MemRead: 1 MemWrite: 0
+Data: 17842210
+
+InstructionRegister
+Instruction: 17842210
+
+RegDst
+Sel: 1
+Out: 8
+
+MemtoReg
+Sel: 0
+Out: 4194364
+
+Registers
+ReadReg1: 8 = 3
+ReadReg2: 16 = 1
+
+ALUControl
+Op: 0
+Funct: 34
+
+ALUSrcA
+Sel: 0
+Out: 4194360
+
+Immediate
+value: 16418
+
+ALUSrcB
+Sel: 1
+Out: 4
+
+ALU
+A: 4194360 B: 4
+Op: add
+Y: 4194364
+
+PCSource
+Sel: 0
+Out: 4194364
+
+JumpShift
+in: 17842210 out: 71368840
+
+//////////
+STATE: 1
+//////////
+OP: 0
+Sel: 0
+Out: 4260036
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 3
+RegWrite: 0
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194364
+
+IorD
+Sel: 0
+Out: 4194364
+
+Memory
+Address: 4194364
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 17842210
+
+RegDst
+Sel: 1
+Out: 8
+
+MemtoReg
+Sel: 0
+Out: 4260036
+
+Registers
+ReadReg1: 8 = 3
+ReadReg2: 16 = 1
+
+ALUControl
+Op: 0
+Funct: 34
+
+ALUSrcA
+Sel: 0
+Out: 4194364
+
+Immediate
+value: 16418
+
+ALUSrcB
+Sel: 3
+Out: 65672
+
+ALU
+A: 4194364 B: 65672
+Op: add
+Y: 4260036
+
+PCSource
+Sel: 0
+Out: 4260036
+
+JumpShift
+in: 17842210 out: 71368840
+
+//////////
+STATE: 6
+//////////
+Sel: 0
+Out: 2
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 2
+ALUSrcA: 1
+ALUSrcB: 0
+RegWrite: 0
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194364
+
+IorD
+Sel: 0
+Out: 4194364
+
+Memory
+Address: 4194364
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 17842210
+
+RegDst
+Sel: 1
+Out: 8
+
+MemtoReg
+Sel: 0
+Out: 2
+
+Registers
+ReadReg1: 8 = 3
+ReadReg2: 16 = 1
+
+ALUControl
+Op: 2
+Funct: 34
+
+ALUSrcA
+Sel: 1
+Out: 3
+
+Immediate
+value: 16418
+
+ALUSrcB
+Sel: 0
+Out: 1
+
+ALU
+A: 3 B: 1
+Op: sub
+Y: 2
+
+PCSource
+Sel: 0
+Out: 2
+
+JumpShift
+in: 17842210 out: 71368840
+
+//////////
+STATE: 7
+//////////
+Sel: 0
+Out: 2
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 2
+ALUSrcA: 1
+ALUSrcB: 0
+RegWrite: 1
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194364
+
+IorD
+Sel: 0
+Out: 4194364
+
+Memory
+Address: 4194364
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 17842210
+
+RegDst
+Sel: 1
+Out: 8
+
+MemtoReg
+Sel: 0
+Out: 2
+
+Registers
+WriteReg1: 8 = 2
+
+ALUControl
+Op: 2
+Funct: 34
+
+ALUSrcA
+Sel: 1
+Out: 3
+
+Immediate
+value: 16418
+
+ALUSrcB
+Sel: 0
+Out: 1
+
+ALU
+A: 3 B: 1
+Op: sub
+Y: 2
+
+PCSource
+Sel: 0
+Out: 2
+
+JumpShift
+in: 17842210 out: 71368840
+
+//////////
+STATE: 0
+//////////
+Sel: 0
+Out: 4194368
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 1
+IorD: 0
+MemRead: 1
+MemWrite: 0
+IRWrite: 1
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 1
+RegWrite: 0
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194368
+
+IorD
+Sel: 0
+Out: 4194364
+
+Memory
+Address: 4194364
+MemRead: 1 MemWrite: 0
+Data: 353501186
+
+InstructionRegister
+Instruction: 353501186
+
+RegDst
+Sel: 1
+Out: 0
+
+MemtoReg
+Sel: 0
+Out: 4194368
+
+Registers
+ReadReg1: 8 = 2
+ReadReg2: 18 = 3
+
+ALUControl
+Op: 0
+Funct: 2
+
+ALUSrcA
+Sel: 0
+Out: 4194364
+
+Immediate
+value: 2
+
+ALUSrcB
+Sel: 1
+Out: 4
+
+ALU
+A: 4194364 B: 4
+Op: add
+Y: 4194368
+
+PCSource
+Sel: 0
+Out: 4194368
+
+JumpShift
+in: 17956866 out: 71827464
+
+//////////
+STATE: 1
+//////////
+OP: 5
+Sel: 0
+Out: 4194376
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 3
+RegWrite: 0
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194368
+
+IorD
+Sel: 0
+Out: 4194368
+
+Memory
+Address: 4194368
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 353501186
+
+RegDst
+Sel: 1
+Out: 0
+
+MemtoReg
+Sel: 0
+Out: 4194376
+
+Registers
+ReadReg1: 8 = 2
+ReadReg2: 18 = 3
+
+ALUControl
+Op: 0
+Funct: 2
+
+ALUSrcA
+Sel: 0
+Out: 4194368
+
+Immediate
+value: 2
+
+ALUSrcB
+Sel: 3
+Out: 8
+
+ALU
+A: 4194368 B: 8
+Op: add
+Y: 4194376
+
+PCSource
+Sel: 0
+Out: 4194376
+
+JumpShift
+in: 17956866 out: 71827464
+
+//////////
+STATE: 8
+//////////
+Sel: 1
+Out: 4194376
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 1
+ALUOp: 1
+ALUSrcA: 1
+ALUSrcB: 0
+RegWrite: 0
+RegDst: 1
+BNECond: 1
+RtisA: 0
+
+PC
+value: 4194376
+
+IorD
+Sel: 0
+Out: 4194368
+
+Memory
+Address: 4194368
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 353501186
+
+RegDst
+Sel: 1
+Out: 0
+
+MemtoReg
+Sel: 0
+Out: -1
+
+Registers
+ReadReg1: 8 = 2
+ReadReg2: 18 = 3
+
+ALUControl
+Op: 1
+Funct: 2
+
+ALUSrcA
+Sel: 1
+Out: 2
+
+Immediate
+value: 2
+
+ALUSrcB
+Sel: 0
+Out: 3
+
+ALU
+A: 2 B: 3
+Op: sub
+Y: -1
+
+PCSource
+Sel: 1
+Out: -1
+
+JumpShift
+in: 17956866 out: 71827464
+
+//////////
+STATE: 0
+//////////
+Sel: 0
+Out: 4194380
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 1
+IorD: 0
+MemRead: 1
+MemWrite: 0
+IRWrite: 1
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 1
+RegWrite: 0
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194380
+
+IorD
+Sel: 0
+Out: 4194376
+
+Memory
+Address: 4194376
+MemRead: 1 MemWrite: 0
+Data: 353501177
+
+InstructionRegister
+Instruction: 353501177
+
+RegDst
+Sel: 1
+Out: 31
+
+MemtoReg
+Sel: 0
+Out: 4194380
+
+Registers
+ReadReg1: 8 = 2
+ReadReg2: 17 = 2
+
+ALUControl
+Op: 0
+Funct: 57
+
+ALUSrcA
+Sel: 0
+Out: 4194376
+
+Immediate
+value: 65529
+
+ALUSrcB
+Sel: 1
+Out: 4
+
+ALU
+A: 4194376 B: 4
+Op: add
+Y: 4194380
+
+PCSource
+Sel: 0
+Out: 4194380
+
+JumpShift
+in: 17956857 out: 71827428
+
+//////////
+STATE: 1
+//////////
+OP: 5
+Sel: 0
+Out: 4456496
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 3
+RegWrite: 0
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194380
+
+IorD
+Sel: 0
+Out: 4194380
+
+Memory
+Address: 4194380
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 353501177
+
+RegDst
+Sel: 1
+Out: 31
+
+MemtoReg
+Sel: 0
+Out: 4456496
+
+Registers
+ReadReg1: 8 = 2
+ReadReg2: 17 = 2
+
+ALUControl
+Op: 0
+Funct: 57
+
+ALUSrcA
+Sel: 0
+Out: 4194380
+
+Immediate
+value: 65529
+
+ALUSrcB
+Sel: 3
+Out: 262116
+
+ALU
+A: 4194380 B: 262116
+Op: add
+Y: 4456496
+
+PCSource
+Sel: 0
+Out: 4456496
+
+JumpShift
+in: 17956857 out: 71827428
+
+//////////
+STATE: 8
+//////////
+Sel: 1
+Out: 4456496
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 1
+ALUOp: 1
+ALUSrcA: 1
+ALUSrcB: 0
+RegWrite: 0
+RegDst: 1
+BNECond: 1
+RtisA: 0
+
+PC
+value: 4194380
+
+IorD
+Sel: 0
+Out: 4194380
+
+Memory
+Address: 4194380
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 353501177
+
+RegDst
+Sel: 1
+Out: 31
+
+MemtoReg
+Sel: 0
+Out: 0
+
+Registers
+ReadReg1: 8 = 2
+ReadReg2: 17 = 2
+
+ALUControl
+Op: 1
+Funct: 57
+
+ALUSrcA
+Sel: 1
+Out: 2
+
+Immediate
+value: 65529
+
+ALUSrcB
+Sel: 0
+Out: 2
+
+ALU
+A: 2 B: 2
+Op: sub
+Y: 0
+
+PCSource
+Sel: 1
+Out: 0
+
+JumpShift
+in: 17956857 out: 71827428
+
+//////////
+STATE: 0
+//////////
+Sel: 0
+Out: 4194384
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 1
+IorD: 0
+MemRead: 1
+MemWrite: 0
+IRWrite: 1
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 1
+RegWrite: 0
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194384
+
+IorD
+Sel: 0
+Out: 4194380
+
+Memory
+Address: 4194380
+MemRead: 1 MemWrite: 0
+Data: 41173034
+
+InstructionRegister
+Instruction: 41173034
+
+RegDst
+Sel: 1
+Out: 8
+
+MemtoReg
+Sel: 0
+Out: 4194384
+
+Registers
+ReadReg1: 19 = 4
+ReadReg2: 20 = 5
+
+ALUControl
+Op: 0
+Funct: 42
+
+ALUSrcA
+Sel: 0
+Out: 4194380
+
+Immediate
+value: 16426
+
+ALUSrcB
+Sel: 1
+Out: 4
+
+ALU
+A: 4194380 B: 4
+Op: add
+Y: 4194384
+
+PCSource
+Sel: 0
+Out: 4194384
+
+JumpShift
+in: 41173034 out: 164692136
+
+//////////
+STATE: 1
+//////////
+OP: 0
+Sel: 0
+Out: 4260088
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 3
+RegWrite: 0
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194384
+
+IorD
+Sel: 0
+Out: 4194384
+
+Memory
+Address: 4194384
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 41173034
+
+RegDst
+Sel: 1
+Out: 8
+
+MemtoReg
+Sel: 0
+Out: 4260088
+
+Registers
+ReadReg1: 19 = 4
+ReadReg2: 20 = 5
+
+ALUControl
+Op: 0
+Funct: 42
+
+ALUSrcA
+Sel: 0
+Out: 4194384
+
+Immediate
+value: 16426
+
+ALUSrcB
+Sel: 3
+Out: 65704
+
+ALU
+A: 4194384 B: 65704
+Op: add
+Y: 4260088
+
+PCSource
+Sel: 0
+Out: 4260088
+
+JumpShift
+in: 41173034 out: 164692136
+
+//////////
+STATE: 6
+//////////
+Sel: 0
+Out: 1
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 2
+ALUSrcA: 1
+ALUSrcB: 0
+RegWrite: 0
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194384
+
+IorD
+Sel: 0
+Out: 4194384
+
+Memory
+Address: 4194384
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 41173034
+
+RegDst
+Sel: 1
+Out: 8
+
+MemtoReg
+Sel: 0
+Out: 1
+
+Registers
+ReadReg1: 19 = 4
+ReadReg2: 20 = 5
+
+ALUControl
+Op: 2
+Funct: 42
+
+ALUSrcA
+Sel: 1
+Out: 4
+
+Immediate
+value: 16426
+
+ALUSrcB
+Sel: 0
+Out: 5
+
+ALU
+A: 4 B: 5
+Op: slt
+Y: 1
+
+PCSource
+Sel: 0
+Out: 1
+
+JumpShift
+in: 41173034 out: 164692136
+
+//////////
+STATE: 7
+//////////
+Sel: 0
+Out: 1
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 2
+ALUSrcA: 1
+ALUSrcB: 0
+RegWrite: 1
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194384
+
+IorD
+Sel: 0
+Out: 4194384
+
+Memory
+Address: 4194384
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 41173034
+
+RegDst
+Sel: 1
+Out: 8
+
+MemtoReg
+Sel: 0
+Out: 1
+
+Registers
+WriteReg1: 8 = 1
+
+ALUControl
+Op: 2
+Funct: 42
+
+ALUSrcA
+Sel: 1
+Out: 4
+
+Immediate
+value: 16426
+
+ALUSrcB
+Sel: 0
+Out: 5
+
+ALU
+A: 4 B: 5
+Op: slt
+Y: 1
+
+PCSource
+Sel: 0
+Out: 1
+
+JumpShift
+in: 41173034 out: 164692136
+
+//////////
+STATE: 0
+//////////
+Sel: 0
+Out: 4194388
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 1
+IorD: 0
+MemRead: 1
+MemWrite: 0
+IRWrite: 1
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 1
+RegWrite: 0
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194388
+
+IorD
+Sel: 0
+Out: 4194384
+
+Memory
+Address: 4194384
+MemRead: 1 MemWrite: 0
+Data: 43204650
+
+InstructionRegister
+Instruction: 43204650
+
+RegDst
+Sel: 1
+Out: 8
+
+MemtoReg
+Sel: 0
+Out: 4194388
+
+Registers
+ReadReg1: 20 = 5
+ReadReg2: 19 = 4
+
+ALUControl
+Op: 0
+Funct: 42
+
+ALUSrcA
+Sel: 0
+Out: 4194384
+
+Immediate
+value: 16426
+
+ALUSrcB
+Sel: 1
+Out: 4
+
+ALU
+A: 4194384 B: 4
+Op: add
+Y: 4194388
+
+PCSource
+Sel: 0
+Out: 4194388
+
+JumpShift
+in: 43204650 out: 172818600
+
+//////////
+STATE: 1
+//////////
+OP: 0
+Sel: 0
+Out: 4260092
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 3
+RegWrite: 0
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194388
+
+IorD
+Sel: 0
+Out: 4194388
+
+Memory
+Address: 4194388
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 43204650
+
+RegDst
+Sel: 1
+Out: 8
+
+MemtoReg
+Sel: 0
+Out: 4260092
+
+Registers
+ReadReg1: 20 = 5
+ReadReg2: 19 = 4
+
+ALUControl
+Op: 0
+Funct: 42
+
+ALUSrcA
+Sel: 0
+Out: 4194388
+
+Immediate
+value: 16426
+
+ALUSrcB
+Sel: 3
+Out: 65704
+
+ALU
+A: 4194388 B: 65704
+Op: add
+Y: 4260092
+
+PCSource
+Sel: 0
+Out: 4260092
+
+JumpShift
+in: 43204650 out: 172818600
+
+//////////
+STATE: 6
+//////////
+Sel: 0
+Out: 0
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 2
+ALUSrcA: 1
+ALUSrcB: 0
+RegWrite: 0
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194388
+
+IorD
+Sel: 0
+Out: 4194388
+
+Memory
+Address: 4194388
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 43204650
+
+RegDst
+Sel: 1
+Out: 8
+
+MemtoReg
+Sel: 0
+Out: 0
+
+Registers
+ReadReg1: 20 = 5
+ReadReg2: 19 = 4
+
+ALUControl
+Op: 2
+Funct: 42
+
+ALUSrcA
+Sel: 1
+Out: 5
+
+Immediate
+value: 16426
+
+ALUSrcB
+Sel: 0
+Out: 4
+
+ALU
+A: 5 B: 4
+Op: slt
+Y: 0
+
+PCSource
+Sel: 0
+Out: 0
+
+JumpShift
+in: 43204650 out: 172818600
+
+//////////
+STATE: 7
+//////////
+Sel: 0
+Out: 0
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 2
+ALUSrcA: 1
+ALUSrcB: 0
+RegWrite: 1
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194388
+
+IorD
+Sel: 0
+Out: 4194388
+
+Memory
+Address: 4194388
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 43204650
+
+RegDst
+Sel: 1
+Out: 8
+
+MemtoReg
+Sel: 0
+Out: 0
+
+Registers
+WriteReg1: 8 = 0
+
+ALUControl
+Op: 2
+Funct: 42
+
+ALUSrcA
+Sel: 1
+Out: 5
+
+Immediate
+value: 16426
+
+ALUSrcB
+Sel: 0
+Out: 4
+
+ALU
+A: 5 B: 4
+Op: slt
+Y: 0
+
+PCSource
+Sel: 0
+Out: 0
+
+JumpShift
+in: 43204650 out: 172818600
+
+//////////
+STATE: 0
+//////////
+Sel: 0
+Out: 4194392
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 1
+IorD: 0
+MemRead: 1
+MemWrite: 0
+IRWrite: 1
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 1
+RegWrite: 0
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194392
+
+IorD
+Sel: 0
+Out: 4194388
+
+Memory
+Address: 4194388
+MemRead: 1 MemWrite: 0
+Data: 1130624
+
+InstructionRegister
+Instruction: 1130624
+
+RegDst
+Sel: 1
+Out: 8
+
+MemtoReg
+Sel: 0
+Out: 4194392
+
+Registers
+ReadReg1: 0 = 0
+ReadReg2: 17 = 2
+
+ALUControl
+Op: 0
+Funct: 0
+
+ALUSrcA
+Sel: 0
+Out: 4194388
+
+Immediate
+value: 16512
+
+ALUSrcB
+Sel: 1
+Out: 4
+
+ALU
+A: 4194388 B: 4
+Op: add
+Y: 4194392
+
+PCSource
+Sel: 0
+Out: 4194392
+
+JumpShift
+in: 1130624 out: 4522496
+
+//////////
+STATE: 1
+//////////
+OP: 0
+Sel: 0
+Out: 4260440
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 3
+RegWrite: 0
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194392
+
+IorD
+Sel: 0
+Out: 4194392
+
+Memory
+Address: 4194392
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 1130624
+
+RegDst
+Sel: 1
+Out: 8
+
+MemtoReg
+Sel: 0
+Out: 4260440
+
+Registers
+ReadReg1: 0 = 0
+ReadReg2: 17 = 2
+
+ALUControl
+Op: 0
+Funct: 0
+
+ALUSrcA
+Sel: 0
+Out: 4194392
+
+Immediate
+value: 16512
+
+ALUSrcB
+Sel: 3
+Out: 66048
+
+ALU
+A: 4194392 B: 66048
+Op: add
+Y: 4260440
+
+PCSource
+Sel: 0
+Out: 4260440
+
+JumpShift
+in: 1130624 out: 4522496
+
+//////////
+STATE: 6
+//////////
+Sel: 0
+Out: 8
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 2
+ALUSrcA: 1
+ALUSrcB: 0
+RegWrite: 0
+RegDst: 1
+BNECond: 0
+RtisA: 1
+
+PC
+value: 4194392
+
+IorD
+Sel: 0
+Out: 4194392
+
+Memory
+Address: 4194392
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 1130624
+
+RegDst
+Sel: 1
+Out: 8
+
+MemtoReg
+Sel: 0
+Out: 8
+
+Registers
+ReadReg1: 17 = 2
+ReadReg2: 17 = 2
+
+ALUControl
+Op: 2
+Funct: 0
+
+ALUSrcA
+Sel: 1
+Out: 2
+
+Immediate
+value: 16512
+
+ALUSrcB
+Sel: 0
+Out: 2
+
+ALU
+A: 2 B: 2
+Op: sll
+Y: 8
+
+PCSource
+Sel: 0
+Out: 8
+
+JumpShift
+in: 1130624 out: 4522496
+
+//////////
+STATE: 7
+//////////
+Sel: 0
+Out: 8
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 2
+ALUSrcA: 1
+ALUSrcB: 0
+RegWrite: 1
+RegDst: 1
+BNECond: 0
+RtisA: 1
+
+PC
+value: 4194392
+
+IorD
+Sel: 0
+Out: 4194392
+
+Memory
+Address: 4194392
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 1130624
+
+RegDst
+Sel: 1
+Out: 8
+
+MemtoReg
+Sel: 0
+Out: 8
+
+Registers
+WriteReg1: 8 = 8
+
+ALUControl
+Op: 2
+Funct: 0
+
+ALUSrcA
+Sel: 1
+Out: 2
+
+Immediate
+value: 16512
+
+ALUSrcB
+Sel: 0
+Out: 2
+
+ALU
+A: 2 B: 2
+Op: sll
+Y: 8
+
+PCSource
+Sel: 0
+Out: 8
+
+JumpShift
+in: 1130624 out: 4522496
+
+//////////
+STATE: 0
+//////////
+Sel: 0
+Out: 4194396
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 1
+IorD: 0
+MemRead: 1
+MemWrite: 0
+IRWrite: 1
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 1
+RegWrite: 0
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194396
+
+IorD
+Sel: 0
+Out: 4194392
+
+Memory
+Address: 4194392
+MemRead: 1 MemWrite: 0
+Data: 540866
+
+InstructionRegister
+Instruction: 540866
+
+RegDst
+Sel: 1
+Out: 8
+
+MemtoReg
+Sel: 0
+Out: 4194396
+
+Registers
+ReadReg1: 0 = 0
+ReadReg2: 8 = 8
+
+ALUControl
+Op: 0
+Funct: 2
+
+ALUSrcA
+Sel: 0
+Out: 4194392
+
+Immediate
+value: 16578
+
+ALUSrcB
+Sel: 1
+Out: 4
+
+ALU
+A: 4194392 B: 4
+Op: add
+Y: 4194396
+
+PCSource
+Sel: 0
+Out: 4194396
+
+JumpShift
+in: 540866 out: 2163464
+
+//////////
+STATE: 1
+//////////
+OP: 0
+Sel: 0
+Out: 4260708
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 3
+RegWrite: 0
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194396
+
+IorD
+Sel: 0
+Out: 4194396
+
+Memory
+Address: 4194396
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 540866
+
+RegDst
+Sel: 1
+Out: 8
+
+MemtoReg
+Sel: 0
+Out: 4260708
+
+Registers
+ReadReg1: 0 = 0
+ReadReg2: 8 = 8
+
+ALUControl
+Op: 0
+Funct: 2
+
+ALUSrcA
+Sel: 0
+Out: 4194396
+
+Immediate
+value: 16578
+
+ALUSrcB
+Sel: 3
+Out: 66312
+
+ALU
+A: 4194396 B: 66312
+Op: add
+Y: 4260708
+
+PCSource
+Sel: 0
+Out: 4260708
+
+JumpShift
+in: 540866 out: 2163464
+
+//////////
+STATE: 6
+//////////
+Sel: 0
+Out: 1
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 2
+ALUSrcA: 1
+ALUSrcB: 0
+RegWrite: 0
+RegDst: 1
+BNECond: 0
+RtisA: 1
+
+PC
+value: 4194396
+
+IorD
+Sel: 0
+Out: 4194396
+
+Memory
+Address: 4194396
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 540866
+
+RegDst
+Sel: 1
+Out: 8
+
+MemtoReg
+Sel: 0
+Out: 1
+
+Registers
+ReadReg1: 8 = 8
+ReadReg2: 8 = 8
+
+ALUControl
+Op: 2
+Funct: 2
+
+ALUSrcA
+Sel: 1
+Out: 8
+
+Immediate
+value: 16578
+
+ALUSrcB
+Sel: 0
+Out: 8
+
+ALU
+A: 8 B: 8
+Op: slr
+Y: 1
+
+PCSource
+Sel: 0
+Out: 1
+
+JumpShift
+in: 540866 out: 2163464
+
+//////////
+STATE: 7
+//////////
+Sel: 0
+Out: 1
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 2
+ALUSrcA: 1
+ALUSrcB: 0
+RegWrite: 1
+RegDst: 1
+BNECond: 0
+RtisA: 1
+
+PC
+value: 4194396
+
+IorD
+Sel: 0
+Out: 4194396
+
+Memory
+Address: 4194396
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 540866
+
+RegDst
+Sel: 1
+Out: 8
+
+MemtoReg
+Sel: 0
+Out: 1
+
+Registers
+WriteReg1: 8 = 1
+
+ALUControl
+Op: 2
+Funct: 2
+
+ALUSrcA
+Sel: 1
+Out: 8
+
+Immediate
+value: 16578
+
+ALUSrcB
+Sel: 0
+Out: 8
+
+ALU
+A: 8 B: 8
+Op: slr
+Y: 1
+
+PCSource
+Sel: 0
+Out: 1
+
+JumpShift
+in: 540866 out: 2163464
+
+//////////
+STATE: 0
+//////////
+Sel: 0
+Out: 4194400
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 1
+IorD: 0
+MemRead: 1
+MemWrite: 0
+IRWrite: 1
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 1
+RegWrite: 0
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194400
+
+IorD
+Sel: 0
+Out: 4194396
+
+Memory
+Address: 4194396
+MemRead: 1 MemWrite: 0
+Data: 135266330
+
+InstructionRegister
+Instruction: 135266330
+
+RegDst
+Sel: 1
+Out: 0
+
+MemtoReg
+Sel: 0
+Out: 4194400
+
+Registers
+ReadReg1: 0 = 0
+ReadReg2: 16 = 1
+
+ALUControl
+Op: 0
+Funct: 26
+
+ALUSrcA
+Sel: 0
+Out: 4194396
+
+Immediate
+value: 26
+
+ALUSrcB
+Sel: 1
+Out: 4
+
+ALU
+A: 4194396 B: 4
+Op: add
+Y: 4194400
+
+PCSource
+Sel: 0
+Out: 4194400
+
+JumpShift
+in: 1048602 out: 4194408
+
+//////////
+STATE: 1
+//////////
+OP: 2
+Sel: 0
+Out: 4194504
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 3
+RegWrite: 0
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194400
+
+IorD
+Sel: 0
+Out: 4194400
+
+Memory
+Address: 4194400
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 135266330
+
+RegDst
+Sel: 1
+Out: 0
+
+MemtoReg
+Sel: 0
+Out: 4194504
+
+Registers
+ReadReg1: 0 = 0
+ReadReg2: 16 = 1
+
+ALUControl
+Op: 0
+Funct: 26
+
+ALUSrcA
+Sel: 0
+Out: 4194400
+
+Immediate
+value: 26
+
+ALUSrcB
+Sel: 3
+Out: 104
+
+ALU
+A: 4194400 B: 104
+Op: add
+Y: 4194504
+
+PCSource
+Sel: 0
+Out: 4194504
+
+JumpShift
+in: 1048602 out: 4194408
+
+//////////
+STATE: 9
+//////////
+Sel: 2
+Out: 4194408
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 1
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 2
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 4
+RegWrite: 0
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194408
+
+IorD
+Sel: 0
+Out: 4194400
+
+Memory
+Address: 4194400
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 135266330
+
+RegDst
+Sel: 1
+Out: 0
+
+MemtoReg
+Sel: 0
+Out: 4194400
+
+Registers
+ReadReg1: 0 = 0
+ReadReg2: 16 = 1
+
+ALUControl
+Op: 0
+Funct: 26
+
+ALUSrcA
+Sel: 0
+Out: 4194400
+
+Immediate
+value: 26
+
+ALUSrcB
+Sel: 4
+Out: 0
+
+ALU
+A: 4194400 B: 0
+Op: add
+Y: 4194400
+
+PCSource
+Sel: 2
+Out: 4194408
+
+JumpShift
+in: 1048602 out: 4194408
+
+//////////
+STATE: 0
+//////////
+Sel: 0
+Out: 4194412
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 1
+IorD: 0
+MemRead: 1
+MemWrite: 0
+IRWrite: 1
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 1
+RegWrite: 0
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194412
+
+IorD
+Sel: 0
+Out: 4194408
+
+Memory
+Address: 4194408
+MemRead: 1 MemWrite: 0
+Data: 538902537
+
+InstructionRegister
+Instruction: 538902537
+
+RegDst
+Sel: 1
+Out: 0
+
+MemtoReg
+Sel: 0
+Out: 4194412
+
+Registers
+ReadReg1: 0 = 0
+ReadReg2: 31 = 0
+
+ALUControl
+Op: 0
+Funct: 9
+
+ALUSrcA
+Sel: 0
+Out: 4194408
+
+Immediate
+value: 9
+
+ALUSrcB
+Sel: 1
+Out: 4
+
+ALU
+A: 4194408 B: 4
+Op: add
+Y: 4194412
+
+PCSource
+Sel: 0
+Out: 4194412
+
+JumpShift
+in: 2031625 out: 8126500
+
+//////////
+STATE: 1
+//////////
+OP: 8
+Sel: 0
+Out: 4194448
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 3
+RegWrite: 0
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194412
+
+IorD
+Sel: 0
+Out: 4194412
+
+Memory
+Address: 4194412
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 538902537
+
+RegDst
+Sel: 1
+Out: 0
+
+MemtoReg
+Sel: 0
+Out: 4194448
+
+Registers
+ReadReg1: 0 = 0
+ReadReg2: 31 = 0
+
+ALUControl
+Op: 0
+Funct: 9
+
+ALUSrcA
+Sel: 0
+Out: 4194412
+
+Immediate
+value: 9
+
+ALUSrcB
+Sel: 3
+Out: 36
+
+ALU
+A: 4194412 B: 36
+Op: add
+Y: 4194448
+
+PCSource
+Sel: 0
+Out: 4194448
+
+JumpShift
+in: 2031625 out: 8126500
+
+//////////
+STATE: 6
+//////////
+Sel: 0
+Out: 9
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 8
+ALUSrcA: 1
+ALUSrcB: 2
+RegWrite: 0
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194412
+
+IorD
+Sel: 0
+Out: 4194412
+
+Memory
+Address: 4194412
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 538902537
+
+RegDst
+Sel: 1
+Out: 0
+
+MemtoReg
+Sel: 0
+Out: 9
+
+Registers
+ReadReg1: 0 = 0
+ReadReg2: 31 = 0
+
+ALUControl
+Op: 8
+Funct: 9
+
+ALUSrcA
+Sel: 1
+Out: 0
+
+Immediate
+value: 9
+
+ALUSrcB
+Sel: 2
+Out: 9
+
+ALU
+A: 0 B: 9
+Op: add
+Y: 9
+
+PCSource
+Sel: 0
+Out: 9
+
+JumpShift
+in: 2031625 out: 8126500
+
+//////////
+STATE: 7
+//////////
+Sel: 0
+Out: 9
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 8
+ALUSrcA: 1
+ALUSrcB: 2
+RegWrite: 1
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194412
+
+IorD
+Sel: 0
+Out: 4194412
+
+Memory
+Address: 4194412
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 538902537
+
+RegDst
+Sel: 0
+Out: 31
+
+MemtoReg
+Sel: 0
+Out: 9
+
+Registers
+WriteReg1: 31 = 9
+
+ALUControl
+Op: 8
+Funct: 9
+
+ALUSrcA
+Sel: 1
+Out: 0
+
+Immediate
+value: 9
+
+ALUSrcB
+Sel: 2
+Out: 9
+
+ALU
+A: 0 B: 9
+Op: add
+Y: 9
+
+PCSource
+Sel: 0
+Out: 9
+
+JumpShift
+in: 2031625 out: 8126500
+
+//////////
+STATE: 0
+//////////
+Sel: 0
+Out: 4194416
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 1
+IorD: 0
+MemRead: 1
+MemWrite: 0
+IRWrite: 1
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 1
+RegWrite: 0
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194416
+
+IorD
+Sel: 0
+Out: 4194412
+
+Memory
+Address: 4194412
+MemRead: 1 MemWrite: 0
+Data: 62122018
+
+InstructionRegister
+Instruction: 62122018
+
+RegDst
+Sel: 0
+Out: 19
+
+MemtoReg
+Sel: 0
+Out: 4194416
+
+Registers
+ReadReg1: 29 = 2147479548
+ReadReg2: 19 = 4
+
+ALUControl
+Op: 0
+Funct: 34
+
+ALUSrcA
+Sel: 0
+Out: 4194412
+
+Immediate
+value: 59426
+
+ALUSrcB
+Sel: 1
+Out: 4
+
+ALU
+A: 4194412 B: 4
+Op: add
+Y: 4194416
+
+PCSource
+Sel: 0
+Out: 4194416
+
+JumpShift
+in: 62122018 out: 248488072
+
+//////////
+STATE: 1
+//////////
+OP: 0
+Sel: 0
+Out: 4432120
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 3
+RegWrite: 0
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194416
+
+IorD
+Sel: 0
+Out: 4194416
+
+Memory
+Address: 4194416
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 62122018
+
+RegDst
+Sel: 0
+Out: 19
+
+MemtoReg
+Sel: 0
+Out: 4432120
+
+Registers
+ReadReg1: 29 = 2147479548
+ReadReg2: 19 = 4
+
+ALUControl
+Op: 0
+Funct: 34
+
+ALUSrcA
+Sel: 0
+Out: 4194416
+
+Immediate
+value: 59426
+
+ALUSrcB
+Sel: 3
+Out: 237704
+
+ALU
+A: 4194416 B: 237704
+Op: add
+Y: 4432120
+
+PCSource
+Sel: 0
+Out: 4432120
+
+JumpShift
+in: 62122018 out: 248488072
+
+//////////
+STATE: 6
+//////////
+Sel: 0
+Out: 2147479544
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 2
+ALUSrcA: 1
+ALUSrcB: 0
+RegWrite: 0
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194416
+
+IorD
+Sel: 0
+Out: 4194416
+
+Memory
+Address: 4194416
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 62122018
+
+RegDst
+Sel: 0
+Out: 19
+
+MemtoReg
+Sel: 0
+Out: 2147479544
+
+Registers
+ReadReg1: 29 = 2147479548
+ReadReg2: 19 = 4
+
+ALUControl
+Op: 2
+Funct: 34
+
+ALUSrcA
+Sel: 1
+Out: 2147479548
+
+Immediate
+value: 59426
+
+ALUSrcB
+Sel: 0
+Out: 4
+
+ALU
+A: 2147479548 B: 4
+Op: sub
+Y: 2147479544
+
+PCSource
+Sel: 0
+Out: 2147479544
+
+JumpShift
+in: 62122018 out: 248488072
+
+//////////
+STATE: 7
+//////////
+Sel: 0
+Out: 2147479544
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 2
+ALUSrcA: 1
+ALUSrcB: 0
+RegWrite: 1
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194416
+
+IorD
+Sel: 0
+Out: 4194416
+
+Memory
+Address: 4194416
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 62122018
+
+RegDst
+Sel: 1
+Out: 29
+
+MemtoReg
+Sel: 0
+Out: 2147479544
+
+Registers
+WriteReg1: 29 = 2147479544
+
+ALUControl
+Op: 2
+Funct: 34
+
+ALUSrcA
+Sel: 1
+Out: 2147479548
+
+Immediate
+value: 59426
+
+ALUSrcB
+Sel: 0
+Out: 4
+
+ALU
+A: 2147479548 B: 4
+Op: sub
+Y: 2147479544
+
+PCSource
+Sel: 0
+Out: 2147479544
+
+JumpShift
+in: 62122018 out: 248488072
+
+//////////
+STATE: 0
+//////////
+Sel: 0
+Out: 4194420
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 1
+IorD: 0
+MemRead: 1
+MemWrite: 0
+IRWrite: 1
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 1
+RegWrite: 0
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194420
+
+IorD
+Sel: 0
+Out: 4194416
+
+Memory
+Address: 4194416
+MemRead: 1 MemWrite: 0
+Data: 2147483647
+
+InstructionRegister
+Instruction: 2147483647
+
+RegDst
+Sel: 1
+Out: 31
+
+MemtoReg
+Sel: 0
+Out: 4194420
+
+Registers
+ReadReg1: 31 = 9
+ReadReg2: 31 = 9
+
+ALUControl
+Op: 0
+Funct: 63
+
+ALUSrcA
+Sel: 0
+Out: 4194416
+
+Immediate
+value: 65535
+
+ALUSrcB
+Sel: 1
+Out: 4
+
+ALU
+A: 4194416 B: 4
+Op: add
+Y: 4194420
+
+PCSource
+Sel: 0
+Out: 4194420
+
+JumpShift
+in: 67108863 out: 268435452
+
+//////////
+STATE: 1
+//////////
+OP: 31
+Sel: 0
+Out: 4456560
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 3
+RegWrite: 0
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194420
+
+IorD
+Sel: 0
+Out: 4194420
+
+Memory
+Address: 4194420
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 2147483647
+
+RegDst
+Sel: 1
+Out: 31
+
+MemtoReg
+Sel: 0
+Out: 4456560
+
+Registers
+ReadReg1: 31 = 9
+ReadReg2: 31 = 9
+
+ALUControl
+Op: 0
+Funct: 63
+
+ALUSrcA
+Sel: 0
+Out: 4194420
+
+Immediate
+value: 65535
+
+ALUSrcB
+Sel: 3
+Out: 262140
+
+ALU
+A: 4194420 B: 262140
+Op: add
+Y: 4456560
+
+PCSource
+Sel: 0
+Out: 4456560
+
+JumpShift
+in: 67108863 out: 268435452
+
+//////////
+STATE: 6
+//////////
+Sel: 0
+Out: 65544
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 31
+ALUSrcA: 1
+ALUSrcB: 2
+RegWrite: 0
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194420
+
+IorD
+Sel: 0
+Out: 4194420
+
+Memory
+Address: 4194420
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 2147483647
+
+RegDst
+Sel: 1
+Out: 31
+
+MemtoReg
+Sel: 0
+Out: 65544
+
+Registers
+ReadReg1: 31 = 9
+ReadReg2: 31 = 9
+
+ALUControl
+Op: 31
+Funct: 63
+
+ALUSrcA
+Sel: 1
+Out: 9
+
+Immediate
+value: 65535
+
+ALUSrcB
+Sel: 2
+Out: 65535
+
+ALU
+A: 9 B: 65535
+Op: add
+Y: 65544
+
+PCSource
+Sel: 0
+Out: 65544
+
+JumpShift
+in: 67108863 out: 268435452
+
+//////////
+STATE: 7
+//////////
+Sel: 0
+Out: 65544
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 31
+ALUSrcA: 1
+ALUSrcB: 2
+RegWrite: 1
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194420
+
+IorD
+Sel: 0
+Out: 4194420
+
+Memory
+Address: 4194420
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 2147483647
+
+RegDst
+Sel: 0
+Out: 31
+
+MemtoReg
+Sel: 0
+Out: 65544
+
+Registers
+WriteReg1: 31 = 65544
+
+ALUControl
+Op: 31
+Funct: 63
+
+ALUSrcA
+Sel: 1
+Out: 9
+
+Immediate
+value: 65535
+
+ALUSrcB
+Sel: 2
+Out: 65535
+
+ALU
+A: 9 B: 65535
+Op: add
+Y: 65544
+
+PCSource
+Sel: 0
+Out: 65544
+
+JumpShift
+in: 67108863 out: 268435452
+
+//////////
+STATE: 0
+//////////
+Sel: 0
+Out: 4194424
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 1
+IorD: 0
+MemRead: 1
+MemWrite: 0
+IRWrite: 1
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 1
+RegWrite: 0
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194424
+
+IorD
+Sel: 0
+Out: 4194420
+
+Memory
+Address: 4194420
+MemRead: 1 MemWrite: 0
+Data: 202375192
+
+InstructionRegister
+Instruction: 202375192
+
+RegDst
+Sel: 0
+Out: 16
+
+MemtoReg
+Sel: 0
+Out: 4194424
+
+Registers
+ReadReg1: 0 = 0
+ReadReg2: 16 = 1
+
+ALUControl
+Op: 0
+Funct: 24
+
+ALUSrcA
+Sel: 0
+Out: 4194420
+
+Immediate
+value: 24
+
+ALUSrcB
+Sel: 1
+Out: 4
+
+ALU
+A: 4194420 B: 4
+Op: add
+Y: 4194424
+
+PCSource
+Sel: 0
+Out: 4194424
+
+JumpShift
+in: 1048600 out: 4194400
+
+//////////
+STATE: 1
+//////////
+OP: 3
+Sel: 0
+Out: 4194520
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 3
+RegWrite: 0
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194424
+
+IorD
+Sel: 0
+Out: 4194424
+
+Memory
+Address: 4194424
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 202375192
+
+RegDst
+Sel: 0
+Out: 16
+
+MemtoReg
+Sel: 0
+Out: 4194520
+
+Registers
+ReadReg1: 0 = 0
+ReadReg2: 16 = 1
+
+ALUControl
+Op: 0
+Funct: 24
+
+ALUSrcA
+Sel: 0
+Out: 4194424
+
+Immediate
+value: 24
+
+ALUSrcB
+Sel: 3
+Out: 96
+
+ALU
+A: 4194424 B: 96
+Op: add
+Y: 4194520
+
+PCSource
+Sel: 0
+Out: 4194520
+
+JumpShift
+in: 1048600 out: 4194400
+
+//////////
+STATE: 9
+//////////
+Sel: 2
+Out: 4194400
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 1
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 2
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 4
+RegWrite: 0
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194400
+
+IorD
+Sel: 0
+Out: 4194424
+
+Memory
+Address: 4194424
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 202375192
+
+RegDst
+Sel: 0
+Out: 16
+
+MemtoReg
+Sel: 0
+Out: 4194424
+
+Registers
+ReadReg1: 0 = 0
+ReadReg2: 16 = 1
+
+ALUControl
+Op: 0
+Funct: 24
+
+ALUSrcA
+Sel: 0
+Out: 4194424
+
+Immediate
+value: 24
+
+ALUSrcB
+Sel: 4
+Out: 0
+
+ALU
+A: 4194424 B: 0
+Op: add
+Y: 4194424
+
+PCSource
+Sel: 2
+Out: 4194400
+
+JumpShift
+in: 1048600 out: 4194400
+
+//////////
+STATE: 7
+//////////
+Sel: 2
+Out: 4194400
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 1
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 2
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 4
+RegWrite: 1
+RegDst: 2
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194400
+
+IorD
+Sel: 0
+Out: 4194400
+
+Memory
+Address: 4194400
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 202375192
+
+RegDst
+Sel: 2
+Out: 31
+
+MemtoReg
+Sel: 0
+Out: 4194400
+
+Registers
+WriteReg1: 31 = 4194424
+
+ALUControl
+Op: 0
+Funct: 24
+
+ALUSrcA
+Sel: 0
+Out: 4194400
+
+Immediate
+value: 24
+
+ALUSrcB
+Sel: 4
+Out: 0
+
+ALU
+A: 4194400 B: 0
+Op: add
+Y: 4194400
+
+PCSource
+Sel: 2
+Out: 4194400
+
+JumpShift
+in: 1048600 out: 4194400
+
+//////////
+STATE: 0
+//////////
+Sel: 0
+Out: 4194404
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 1
+IorD: 0
+MemRead: 1
+MemWrite: 0
+IRWrite: 1
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 1
+RegWrite: 0
+RegDst: 2
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194404
+
+IorD
+Sel: 0
+Out: 4194400
+
+Memory
+Address: 4194400
+MemRead: 1 MemWrite: 0
+Data: 564985871
+
+InstructionRegister
+Instruction: 564985871
+
+RegDst
+Sel: 2
+Out: 31
+
+MemtoReg
+Sel: 0
+Out: 4194404
+
+Registers
+ReadReg1: 13 = 0
+ReadReg2: 13 = 0
+
+ALUControl
+Op: 0
+Funct: 15
+
+ALUSrcA
+Sel: 0
+Out: 4194400
+
+Immediate
+value: 15
+
+ALUSrcB
+Sel: 1
+Out: 4
+
+ALU
+A: 4194400 B: 4
+Op: add
+Y: 4194404
+
+PCSource
+Sel: 0
+Out: 4194404
+
+JumpShift
+in: 28114959 out: 112459836
+
+//////////
+STATE: 1
+//////////
+OP: 8
+Sel: 0
+Out: 4194464
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 3
+RegWrite: 0
+RegDst: 2
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194404
+
+IorD
+Sel: 0
+Out: 4194404
+
+Memory
+Address: 4194404
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 564985871
+
+RegDst
+Sel: 2
+Out: 31
+
+MemtoReg
+Sel: 0
+Out: 4194464
+
+Registers
+ReadReg1: 13 = 0
+ReadReg2: 13 = 0
+
+ALUControl
+Op: 0
+Funct: 15
+
+ALUSrcA
+Sel: 0
+Out: 4194404
+
+Immediate
+value: 15
+
+ALUSrcB
+Sel: 3
+Out: 60
+
+ALU
+A: 4194404 B: 60
+Op: add
+Y: 4194464
+
+PCSource
+Sel: 0
+Out: 4194464
+
+JumpShift
+in: 28114959 out: 112459836
+
+//////////
+STATE: 6
+//////////
+Sel: 0
+Out: 15
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 8
+ALUSrcA: 1
+ALUSrcB: 2
+RegWrite: 0
+RegDst: 2
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194404
+
+IorD
+Sel: 0
+Out: 4194404
+
+Memory
+Address: 4194404
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 564985871
+
+RegDst
+Sel: 2
+Out: 31
+
+MemtoReg
+Sel: 0
+Out: 15
+
+Registers
+ReadReg1: 13 = 0
+ReadReg2: 13 = 0
+
+ALUControl
+Op: 8
+Funct: 15
+
+ALUSrcA
+Sel: 1
+Out: 0
+
+Immediate
+value: 15
+
+ALUSrcB
+Sel: 2
+Out: 15
+
+ALU
+A: 0 B: 15
+Op: add
+Y: 15
+
+PCSource
+Sel: 0
+Out: 15
+
+JumpShift
+in: 28114959 out: 112459836
+
+//////////
+STATE: 7
+//////////
+Sel: 0
+Out: 15
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 8
+ALUSrcA: 1
+ALUSrcB: 2
+RegWrite: 1
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194404
+
+IorD
+Sel: 0
+Out: 4194404
+
+Memory
+Address: 4194404
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 564985871
+
+RegDst
+Sel: 0
+Out: 13
+
+MemtoReg
+Sel: 0
+Out: 15
+
+Registers
+WriteReg1: 13 = 15
+
+ALUControl
+Op: 8
+Funct: 15
+
+ALUSrcA
+Sel: 1
+Out: 0
+
+Immediate
+value: 15
+
+ALUSrcB
+Sel: 2
+Out: 15
+
+ALU
+A: 0 B: 15
+Op: add
+Y: 15
+
+PCSource
+Sel: 0
+Out: 15
+
+JumpShift
+in: 28114959 out: 112459836
+
+//////////
+STATE: 0
+//////////
+Sel: 0
+Out: 4194408
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 1
+IorD: 0
+MemRead: 1
+MemWrite: 0
+IRWrite: 1
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 1
+RegWrite: 0
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194408
+
+IorD
+Sel: 0
+Out: 4194404
+
+Memory
+Address: 4194404
+MemRead: 1 MemWrite: 0
+Data: 65011720
+
+InstructionRegister
+Instruction: 65011720
+
+RegDst
+Sel: 0
+Out: 0
+
+MemtoReg
+Sel: 0
+Out: 4194408
+
+Registers
+ReadReg1: 31 = 4194424
+ReadReg2: 0 = 0
+
+ALUControl
+Op: 0
+Funct: 8
+
+ALUSrcA
+Sel: 0
+Out: 4194404
+
+Immediate
+value: 8
+
+ALUSrcB
+Sel: 1
+Out: 4
+
+ALU
+A: 4194404 B: 4
+Op: add
+Y: 4194408
+
+PCSource
+Sel: 0
+Out: 4194408
+
+JumpShift
+in: 65011720 out: 260046880
+
+//////////
+STATE: 1
+//////////
+OP: 0
+Sel: 0
+Out: 4194440
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 3
+RegWrite: 0
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194408
+
+IorD
+Sel: 0
+Out: 4194408
+
+Memory
+Address: 4194408
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 65011720
+
+RegDst
+Sel: 0
+Out: 0
+
+MemtoReg
+Sel: 0
+Out: 4194440
+
+Registers
+ReadReg1: 31 = 4194424
+ReadReg2: 0 = 0
+
+ALUControl
+Op: 0
+Funct: 8
+
+ALUSrcA
+Sel: 0
+Out: 4194408
+
+Immediate
+value: 8
+
+ALUSrcB
+Sel: 3
+Out: 32
+
+ALU
+A: 4194408 B: 32
+Op: add
+Y: 4194440
+
+PCSource
+Sel: 0
+Out: 4194440
+
+JumpShift
+in: 65011720 out: 260046880
+
+//////////
+STATE: 10
+//////////
+Sel: 0
+Out: 4194424
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 1
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 2
+ALUSrcA: 1
+ALUSrcB: 0
+RegWrite: 0
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194424
+
+IorD
+Sel: 0
+Out: 4194408
+
+Memory
+Address: 4194408
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 65011720
+
+RegDst
+Sel: 0
+Out: 0
+
+MemtoReg
+Sel: 0
+Out: 4194424
+
+Registers
+ReadReg1: 31 = 4194424
+ReadReg2: 0 = 0
+
+ALUControl
+Op: 2
+Funct: 8
+
+ALUSrcA
+Sel: 1
+Out: 4194424
+
+Immediate
+value: 8
+
+ALUSrcB
+Sel: 0
+Out: 0
+
+ALU
+A: 4194424 B: 0
+Op: add
+Y: 4194424
+
+PCSource
+Sel: 0
+Out: 4194424
+
+JumpShift
+in: 65011720 out: 260046880
+
+//////////
+STATE: 0
+//////////
+Sel: 0
+Out: 4194428
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 1
+IorD: 0
+MemRead: 1
+MemWrite: 0
+IRWrite: 1
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 1
+RegWrite: 0
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194428
+
+IorD
+Sel: 0
+Out: 4194424
+
+Memory
+Address: 4194424
+MemRead: 1 MemWrite: 0
+Data: 2147483647
+
+InstructionRegister
+Instruction: 2147483647
+
+RegDst
+Sel: 0
+Out: 31
+
+MemtoReg
+Sel: 0
+Out: 4194428
+
+Registers
+ReadReg1: 31 = 4194424
+ReadReg2: 31 = 4194424
+
+ALUControl
+Op: 0
+Funct: 63
+
+ALUSrcA
+Sel: 0
+Out: 4194424
+
+Immediate
+value: 65535
+
+ALUSrcB
+Sel: 1
+Out: 4
+
+ALU
+A: 4194424 B: 4
+Op: add
+Y: 4194428
+
+PCSource
+Sel: 0
+Out: 4194428
+
+JumpShift
+in: 67108863 out: 268435452
+
+//////////
+STATE: 1
+//////////
+OP: 31
+Sel: 0
+Out: 4456568
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 3
+RegWrite: 0
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194428
+
+IorD
+Sel: 0
+Out: 4194428
+
+Memory
+Address: 4194428
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 2147483647
+
+RegDst
+Sel: 0
+Out: 31
+
+MemtoReg
+Sel: 0
+Out: 4456568
+
+Registers
+ReadReg1: 31 = 4194424
+ReadReg2: 31 = 4194424
+
+ALUControl
+Op: 0
+Funct: 63
+
+ALUSrcA
+Sel: 0
+Out: 4194428
+
+Immediate
+value: 65535
+
+ALUSrcB
+Sel: 3
+Out: 262140
+
+ALU
+A: 4194428 B: 262140
+Op: add
+Y: 4456568
+
+PCSource
+Sel: 0
+Out: 4456568
+
+JumpShift
+in: 67108863 out: 268435452
+
+//////////
+STATE: 6
+//////////
+Sel: 0
+Out: 4259959
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 31
+ALUSrcA: 1
+ALUSrcB: 2
+RegWrite: 0
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194428
+
+IorD
+Sel: 0
+Out: 4194428
+
+Memory
+Address: 4194428
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 2147483647
+
+RegDst
+Sel: 0
+Out: 31
+
+MemtoReg
+Sel: 0
+Out: 4259959
+
+Registers
+ReadReg1: 31 = 4194424
+ReadReg2: 31 = 4194424
+
+ALUControl
+Op: 31
+Funct: 63
+
+ALUSrcA
+Sel: 1
+Out: 4194424
+
+Immediate
+value: 65535
+
+ALUSrcB
+Sel: 2
+Out: 65535
+
+ALU
+A: 4194424 B: 65535
+Op: add
+Y: 4259959
+
+PCSource
+Sel: 0
+Out: 4259959
+
+JumpShift
+in: 67108863 out: 268435452
+
+//////////
+STATE: 7
+//////////
+Sel: 0
+Out: 4259959
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 31
+ALUSrcA: 1
+ALUSrcB: 2
+RegWrite: 1
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194428
+
+IorD
+Sel: 0
+Out: 4194428
+
+Memory
+Address: 4194428
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 2147483647
+
+RegDst
+Sel: 0
+Out: 31
+
+MemtoReg
+Sel: 0
+Out: 4259959
+
+Registers
+WriteReg1: 31 = 4259959
+
+ALUControl
+Op: 31
+Funct: 63
+
+ALUSrcA
+Sel: 1
+Out: 4194424
+
+Immediate
+value: 65535
+
+ALUSrcB
+Sel: 2
+Out: 65535
+
+ALU
+A: 4194424 B: 65535
+Op: add
+Y: 4259959
+
+PCSource
+Sel: 0
+Out: 4259959
+
+JumpShift
+in: 67108863 out: 268435452
+
+//////////
+STATE: 0
+//////////
+Sel: 0
+Out: 4194432
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 1
+IorD: 0
+MemRead: 1
+MemWrite: 0
+IRWrite: 1
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 1
+RegWrite: 0
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194432
+
+IorD
+Sel: 0
+Out: 4194428
+
+Memory
+Address: 4194428
+MemRead: 1 MemWrite: 0
+Data: 62122016
+
+InstructionRegister
+Instruction: 62122016
+
+RegDst
+Sel: 0
+Out: 19
+
+MemtoReg
+Sel: 0
+Out: 4194432
+
+Registers
+ReadReg1: 29 = 2147479544
+ReadReg2: 19 = 4
+
+ALUControl
+Op: 0
+Funct: 32
+
+ALUSrcA
+Sel: 0
+Out: 4194428
+
+Immediate
+value: 59424
+
+ALUSrcB
+Sel: 1
+Out: 4
+
+ALU
+A: 4194428 B: 4
+Op: add
+Y: 4194432
+
+PCSource
+Sel: 0
+Out: 4194432
+
+JumpShift
+in: 62122016 out: 248488064
+
+//////////
+STATE: 1
+//////////
+OP: 0
+Sel: 0
+Out: 4432128
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 0
+ALUSrcA: 0
+ALUSrcB: 3
+RegWrite: 0
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194432
+
+IorD
+Sel: 0
+Out: 4194432
+
+Memory
+Address: 4194432
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 62122016
+
+RegDst
+Sel: 0
+Out: 19
+
+MemtoReg
+Sel: 0
+Out: 4432128
+
+Registers
+ReadReg1: 29 = 2147479544
+ReadReg2: 19 = 4
+
+ALUControl
+Op: 0
+Funct: 32
+
+ALUSrcA
+Sel: 0
+Out: 4194432
+
+Immediate
+value: 59424
+
+ALUSrcB
+Sel: 3
+Out: 237696
+
+ALU
+A: 4194432 B: 237696
+Op: add
+Y: 4432128
+
+PCSource
+Sel: 0
+Out: 4432128
+
+JumpShift
+in: 62122016 out: 248488064
+
+//////////
+STATE: 6
+//////////
+Sel: 0
+Out: 2147479548
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 2
+ALUSrcA: 1
+ALUSrcB: 0
+RegWrite: 0
+RegDst: 0
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194432
+
+IorD
+Sel: 0
+Out: 4194432
+
+Memory
+Address: 4194432
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 62122016
+
+RegDst
+Sel: 0
+Out: 19
+
+MemtoReg
+Sel: 0
+Out: 2147479548
+
+Registers
+ReadReg1: 29 = 2147479544
+ReadReg2: 19 = 4
+
+ALUControl
+Op: 2
+Funct: 32
+
+ALUSrcA
+Sel: 1
+Out: 2147479544
+
+Immediate
+value: 59424
+
+ALUSrcB
+Sel: 0
+Out: 4
+
+ALU
+A: 2147479544 B: 4
+Op: add
+Y: 2147479548
+
+PCSource
+Sel: 0
+Out: 2147479548
+
+JumpShift
+in: 62122016 out: 248488064
+
+//////////
+STATE: 7
+//////////
+Sel: 0
+Out: 2147479548
+
+Control Unit
+PCWriteCond: 0
+PCWrite: 0
+IorD: 0
+MemRead: 0
+MemWrite: 0
+IRWrite: 0
+PCSource: 0
+ALUOp: 2
+ALUSrcA: 1
+ALUSrcB: 0
+RegWrite: 1
+RegDst: 1
+BNECond: 0
+RtisA: 0
+
+PC
+value: 4194432
+
+IorD
+Sel: 0
+Out: 4194432
+
+Memory
+Address: 4194432
+MemRead: 0 MemWrite: 0
+
+InstructionRegister
+Instruction: 62122016
+
+RegDst
+Sel: 1
+Out: 29
+
+MemtoReg
+Sel: 0
+Out: 2147479548
+
+Registers
+WriteReg1: 29 = 2147479548
+
+ALUControl
+Op: 2
+Funct: 32
+
+ALUSrcA
+Sel: 1
+Out: 2147479544
+
+Immediate
+value: 59424
+
+ALUSrcB
+Sel: 0
+Out: 4
+
+ALU
+A: 2147479544 B: 4
+Op: add
+Y: 2147479548
+
+PCSource
+Sel: 0
+Out: 2147479548
+
+JumpShift
+in: 62122016 out: 248488064
+REGISTER FILE
+0	0
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	1
+9	7
+10	0
+11	0
+12	0
+13	15
+14	0
+15	0
+16	1
+17	2
+18	3
+19	4
+20	5
+21	0
+22	0
+23	0
+24	0
+25	0
+26	0
+27	0
+28	0
+29	2147479548
+30	0
+31	4259959

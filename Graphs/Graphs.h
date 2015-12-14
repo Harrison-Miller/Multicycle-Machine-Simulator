@@ -7,5 +7,7 @@
 #include "MemoryGraph.h"
 #include "AndGateGraph.h"
 #include "OrGateGraph.h"
+#include "ALUGraph.h"
+#include "ShiftLeftGateGraph.h"
 
 #endif /*GRAPHS*/

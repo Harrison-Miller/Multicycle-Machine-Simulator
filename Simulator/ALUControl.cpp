@@ -21,10 +21,20 @@ void ALUControl::invoke()
         put(Opcode, ArithmeticLogicUnit::Sub);
 
     }
-    else if(op == Arithmetic)
+    else
     {
         int masked = funct&0xf;
-        if(masked == Add || op == 0x8)
+        if(op == 2 && funct == 0x0)
+        {
+            put(Opcode, ArithmeticLogicUnit::Sll);
+
+        }
+        else if(op == 2 && funct == 0x2)
+        {
+            put(Opcode, ArithmeticLogicUnit::Slr);
+
+        }
+        else if(masked == Add || op == 0x8)
         {
             put(Opcode, ArithmeticLogicUnit::Add);
 
@@ -47,6 +57,11 @@ void ALUControl::invoke()
         else if(masked == Slt)
         {
             put(Opcode, ArithmeticLogicUnit::Slt);
+
+        }
+        else if(masked == Nor)
+        {
+            put(Opcode, ArithmeticLogicUnit::Nor);
 
         }
 

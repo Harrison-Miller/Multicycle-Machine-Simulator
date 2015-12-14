@@ -16,11 +16,20 @@ Machine::Machine()
     cpu.link(ALUSrcA, Multiplexer::Sel, ControlUnit::ALUSrcA);
     cpu.link(regs, RegisterFile::RegWrite, ControlUnit::RegWrite);
     cpu.link(RegDst, Multiplexer::Sel, ControlUnit::RegDst);
+    cpu.link(bnqcond, AndGate::A, ControlUnit::BNQWriteCond);
+    cpu.link(RtisA, Multiplexer::Sel, ControlUnit::RtisA);
 
     //pc register write
-    alu.link(PCWriteCond, AndGate::B, ArithmeticLogicUnit::Zero);
+    alu.link(zerobus, Bus::In, ArithmeticLogicUnit::Zero);
+    zerobus.link(PCWriteCond, AndGate::B, Bus::O0);
+    zerobus.link(notzero, NotGate::In, Bus::O1);
+    notzero.link(bnqcond, AndGate::B, NotGate::Out);
+    bnqcond.link(PCWriteF, OrGate::A, AndGate::Q);
+    PCWrite.link(PCWriteF, OrGate::B, OrGate::Q);
+    PCWriteF.link(PC, Register::Write, OrGate::Q);
+
     PCWriteCond.link(PCWrite, OrGate::B, AndGate::Q);
-    PCWrite.link(PC, Register::Write, OrGate::Q);
+    PC.pc = true;
     PC.set(Register::Write, 0); //don't write initially
 
     //writing to pc
@@ -34,9 +43,9 @@ Machine::Machine()
 
     //jump logic
     pcMask.set(AndGate::B, 0xf0000000);
-    jumpShift.link(pcConcat, AndGate::A, ShiftLeftGate::Out);
-    pcMask.link(pcConcat, AndGate::B, AndGate::Q);
-    pcConcat.link(PCSource, Multiplexer::I2, AndGate::Q);
+    jumpShift.link(pcConcat, OrGate::A, ShiftLeftGate::Out);
+    pcMask.link(pcConcat, OrGate::B, AndGate::Q);
+    pcConcat.link(PCSource, Multiplexer::I2, OrGate::Q);
 
     //IorD mux
     IorD.link(mmu, MemoryUnit::Address, Multiplexer::Out);
@@ -47,16 +56,21 @@ Machine::Machine()
     mmuBus.link(memData, Register::In, Bus::O1);
 
     //instrution register and busses
-    ir.link(regs, RegisterFile::ReadReg1, InstructionRegister::Rs);
+    ir.link(RtisA, Multiplexer::I0, InstructionRegister::Rs);
+    RtisA.link(regs, RegisterFile::ReadReg1, Multiplexer::Out);
     ir.link(rtBus, Bus::In, InstructionRegister::Rt);
     rtBus.link(regs, RegisterFile::ReadReg2, Bus::O0);
     rtBus.link(RegDst, Multiplexer::I0, Bus::O1);
+    rtBus.link(RtisA, Multiplexer::I1, Bus::O2);
     ir.link(immBus, Bus::In, InstructionRegister::Imm);
     immBus.link(ALUSrcB, Multiplexer::I2, Bus::O0);
     immBus.link(immShift, ShiftLeftGate::In, Bus::O1);
-    ir.link(aluControl, ALUControl::Funct, InstructionRegister::Funct);
+    ir.link(functBus, Bus::In, InstructionRegister::Funct);
+    functBus.link(aluControl, ALUControl::Funct, Bus::O0);
+    functBus.link(cpu, ControlUnit::Func, InstructionRegister::Funct);
     ir.link(jumpShift, ShiftLeftGate::In, InstructionRegister::Address);
     ir.link(cpu, ControlUnit::Opcode, InstructionRegister::Opcode);
+    ir.link(alu, ArithmeticLogicUnit::Shamt, InstructionRegister::Shamt);
 
     //register b and bus
     regs.link(B, Register::In, RegisterFile::Data2);
@@ -73,11 +87,13 @@ Machine::Machine()
 
     //alu src b
     ALUSrcB.set(Multiplexer::I1, 4);
+    ALUSrcB.set(Multiplexer::I4, 0);
     immShift.link(ALUSrcB, Multiplexer::I3, ShiftLeftGate::Out);
     ALUSrcB.link(alu, ArithmeticLogicUnit::B, Multiplexer::Out);
 
     //reg dst
     ir.link(RegDst, Multiplexer::I1, InstructionRegister::Rd);
+    RegDst.set(Multiplexer::I2, 31); //ra
     RegDst.link(regs, RegisterFile::WriteReg1, Multiplexer::Out);
 
     //mem to reg
@@ -104,7 +120,6 @@ void Machine::update()
 {
     cpu.invoke(); //sets all the control signals and updates the state (cycle step)
     
-    PC.invoke(); //updates the mux with the current pc value
     pcBus.invoke();
 
     IorD.invoke(); //chooses iord for fetching an address
@@ -115,10 +130,12 @@ void Machine::update()
 
     ir.invoke(); //splits the instruction into it's component setting several mux values and shifts for other components
     rtBus.invoke();
+    functBus.invoke();
     immBus.invoke();
 
     memData.invoke(); //updates the value used in the memtoreg mux
 
+    RtisA.invoke();
     RegDst.invoke(); //chooses rt or rd for write register
     MemtoReg.invoke(); //chooses what is used for the data to be written
 
@@ -139,9 +156,6 @@ void Machine::update()
     alu.invoke(); //does math and stuff
     ALURet.invoke();
 
-    ALUOut.invoke();
-    ALUOutBus.invoke();
-
     //jump logic stuff
     jumpShift.invoke();
     pcMask.invoke();
@@ -150,9 +164,19 @@ void Machine::update()
     //updates pc value (doesn't actually do anything until pc is
     //invoked and checkes it's write value.. kinda hack but ohwell).
     PCSource.invoke();
+    PCSource.print();
+
+    ALUOut.invoke();
+    ALUOutBus.invoke();
     
+    zerobus.invoke();
+    notzero.invoke();
+    bnqcond.invoke();
     PCWriteCond.invoke();
     PCWrite.invoke();
+    PCWriteF.invoke();
+
+    PC.invoke(); //updates the mux with the current pc value
 
 }
 
@@ -199,5 +223,8 @@ void Machine::print()
 
     std::cout << "\nPCSource\n";
     PCSource.print();
+
+    std::cout << "\nJumpShift\n";
+    jumpShift.print();
 
 }

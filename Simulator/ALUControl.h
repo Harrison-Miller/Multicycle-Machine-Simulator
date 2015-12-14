@@ -40,7 +40,8 @@ public:
         Sub = 2,
         And = 4,
         Or = 5,
-        Slt = 10
+        Slt = 10,
+        Nor = 7
 
     } FunctCode;
 

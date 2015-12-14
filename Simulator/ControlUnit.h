@@ -22,6 +22,7 @@ public:
 
     void exec();
     void rtype();
+    void jr();
     
     void memcomp();
     void memaccess(); //used for lw/sw
@@ -31,7 +32,8 @@ public:
 
     typedef enum Inputs
     {
-        Opcode
+        Opcode,
+        Func
 
     } Inputs;
 
@@ -49,7 +51,9 @@ public:
         ALUSrcB,
         ALUSrcA,
         RegWrite,
-        RegDst
+        RegDst,
+        BNQWriteCond,
+        RtisA
 
     } Outputs;
 

@@ -9,6 +9,8 @@ RegisterFile::RegisterFile() :
 
     }
 
+    registers[29] = 2147479548;
+
 }
 
 void RegisterFile::invoke()
@@ -54,6 +56,17 @@ void RegisterFile::print()
 
         std::cout << "ReadReg1: " << r1 << " = " << registers[r1] << "\n";
         std::cout << "ReadReg2: " << r2 << " = " << registers[r2] << "\n";
+
+    }
+
+}
+
+void RegisterFile::printContents()
+{
+    std::cout << "REGISTER FILE\n";
+    for(int i = 0; i < 32; i++)
+    {
+        std::cout << i << "\t" << registers[i] << "\n";
 
     }
 

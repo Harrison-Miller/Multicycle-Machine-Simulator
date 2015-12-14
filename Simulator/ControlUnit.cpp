@@ -1,7 +1,7 @@
 #include "ControlUnit.h"
 
 ControlUnit::ControlUnit() :
-    Component(1, 13),
+    Component(2, 13),
     state(0)
 {
 }
@@ -19,6 +19,8 @@ void ControlUnit::fetch()
     put(PCSource, 0);
     put(PCWriteCond, 0);
     put(RegWrite, 0);
+    put(BNQWriteCond, 0);
+    put(RtisA, 0);
 
 }
 
@@ -82,6 +84,11 @@ void ControlUnit::invoke()
         jump();
 
     }
+    else if(state == 10)
+    {
+        jr();
+
+    }
 
     updateState();
 
@@ -90,25 +97,45 @@ void ControlUnit::invoke()
 void ControlUnit::updateState()
 {
     int op = inputs[Opcode];
+    int func = inputs[Func];
 
     if(state == 0 || state == 6 || state == 3)
     {
         state++;
 
     }
-    else if(state == 4 || state == 5 || state == 7 || state == 8 || state == 9)
+    else if(state == 9)
+    {
+        if(op == 0x3) //jal
+        {
+            state = 7;
+
+        }
+        else
+        {
+            state = 0;
+
+        }
+
+    }
+    else if(state == 4 || state == 5 || state == 7 || state == 8 || state == 9 || state == 10)
     {
         state = 0;
 
     }
     else if(state == 1)
     {
-        if(op == 0x2) //j, jal || op == 0x3
+        if(op == 0x0 && func == 0x8) //jr
+        {
+            state = 10;
+
+        }
+        else if(op == 0x2 || op == 0x3) //j, jal || op == 0x3
         {
             state = 9;
             
         }
-        else if(op == 0x4) //beq, bne || op == 0x5
+        else if(op == 0x4 || op == 0x5) //beq, bne || op == 0x5
         {
             state = 8;
 
@@ -151,15 +178,28 @@ void ControlUnit::jump()
 {
     put(PCWrite, 1);
     put(PCSource, 2);
+    put(ALUSrcA, 0);
+    put(ALUSrcB, 4);
 
 }
 
 void ControlUnit::branch()
 {
+    int op = inputs[Opcode];
+    if(op == 0x5)
+    {
+        put(BNQWriteCond, 1);
+
+    }
+    else
+    {
+        put(PCWriteCond, 1);
+
+    }
+
     put(ALUSrcA, 1);
     put(ALUSrcB, 0);
     put(ALUOp, 1);
-    put(PCWriteCond, 1);
     put(PCSource, 1);
 
 }
@@ -168,11 +208,19 @@ void ControlUnit::exec()
 {
     put(ALUSrcA, 1);
 
+    int func = inputs[Func];
     int op = inputs[Opcode];
+
     if(op == 0x0)
     {
         put(ALUSrcB, 0);
         put(ALUOp, 2);
+
+        if(func == 0x0 || func == 0x2)
+        {
+            put(RtisA, 1);
+
+        }
 
     }
     else 
@@ -188,9 +236,15 @@ void ControlUnit::exec()
 void ControlUnit::rtype()
 {
     int op = inputs[Opcode];
+
     if(op == 0x0)
     {
         put(RegDst, 1);
+
+    }
+    else if(op == 0x3) //jal
+    {
+        put(RegDst, 2);
 
     }
     else
@@ -201,6 +255,16 @@ void ControlUnit::rtype()
 
     put(RegWrite, 1);
     put(MemtoReg, 0);
+
+}
+
+void ControlUnit::jr()
+{
+    put(ALUSrcA, 1);
+    put(ALUSrcB, 0);
+    put(ALUOp, 2);
+    put(PCWrite, 1);
+    put(PCSource, 0);
 
 }
 
@@ -253,5 +317,7 @@ void ControlUnit::print()
     std::cout << "ALUSrcB: " << *outputs[ALUSrcB] << "\n";
     std::cout << "RegWrite: " << *outputs[RegWrite] << "\n";
     std::cout << "RegDst: " << *outputs[RegDst] << "\n";
+    std::cout << "BNECond: " << *outputs[BNQWriteCond] << "\n";
+    std::cout << "RtisA: " << *outputs[RtisA] << "\n";
 
 }

@@ -13,5 +13,6 @@
 #include "InstructionRegister.h"
 #include "MemoryUnit.h"
 #include "ControlUnit.h"
+#include "NotGate.h"
 
 #endif /*COMPONENTS*/

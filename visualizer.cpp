@@ -41,9 +41,15 @@ int main(int argc, char** argv)
 
     RegisterGraph rega("A", sf::Vector2f(575, 300), consolas);
     RegisterGraph regb("B", sf::Vector2f(575, 350), consolas);
+
+    ShiftLeftGateGraph immShift(sf::Vector2f(575, 450), consolas);
  
     MultiplexerGraph srca(2, sf::Vector2f(650, 300), consolas);
     MultiplexerGraph srcb(4, sf::Vector2f(650, 350), consolas, false);
+
+    ALUGraph alu(sf::Vector2f(725, 275), consolas);
+
+    ShiftLeftGateGraph jumpShift(sf::Vector2f(725, 200), consolas);
 
     RegisterGraph aluout("ALUOut", sf::Vector2f(850, 325), consolas, false);
     
@@ -66,8 +72,11 @@ int main(int argc, char** argv)
             regs.pollEvent(event);
             rega.pollEvent(event);
             regb.pollEvent(event);
+            immShift.pollEvent(event);
             srca.pollEvent(event);
             srcb.pollEvent(event);
+            alu.pollEvent(event);
+            jumpShift.pollEvent(event);
             aluout.pollEvent(event);
             pcsource.pollEvent(event);
             pcwritecond.pollEvent(event);
@@ -94,8 +103,11 @@ int main(int argc, char** argv)
                     regs.update(machine.regs);
                     rega.update(machine.A);
                     regb.update(machine.B);
+                    immShift.update(machine.immShift);
                     srca.update(machine.ALUSrcA);
                     srcb.update(machine.ALUSrcB);
+                    alu.update(machine.alu);
+                    jumpShift.update(machine.jumpShift);
                     aluout.update(machine.ALUOut);
                     pcsource.update(machine.PCSource);
                     pcwritecond.update(machine.PCWriteCond);
@@ -118,8 +130,11 @@ int main(int argc, char** argv)
         regs.draw(window);
         rega.draw(window);
         regb.draw(window);
+        immShift.draw(window);
         srca.draw(window);
         srcb.draw(window);
+        alu.draw(window);
+        jumpShift.draw(window);
         aluout.draw(window);
         pcsource.draw(window);
         pcwritecond.draw(window);

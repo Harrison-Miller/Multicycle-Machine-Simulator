@@ -25,6 +25,7 @@ public:
 
     } Outputs;
 
+    bool pc;
     int stored;
 
 };

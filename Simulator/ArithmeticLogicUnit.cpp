@@ -1,7 +1,7 @@
 #include "ArithmeticLogicUnit.h"
 
 ArithmeticLogicUnit::ArithmeticLogicUnit() :
-    Component(3, 2)
+    Component(4, 2)
 {
 }
 
@@ -13,10 +13,26 @@ void ArithmeticLogicUnit::invoke()
 
     int a = inputs[A];
     int b = inputs[B];
+    int shamt = inputs[Shamt];
 
     int y = 0;
 
-    if(op == And)
+    if(op == Nor)
+    {
+        y = ~(a|b);
+
+    }
+    else if(op == Sll)
+    {
+        y = a << shamt;
+
+    }
+    else if(op == Slr)
+    {
+        y = a >> shamt;
+
+    }
+    else if(op == And)
     {
         y = a&b;
 
@@ -55,7 +71,22 @@ void ArithmeticLogicUnit::print()
     int b = inputs[B];
 
     std::cout << "A: " << a << " B: " << b << "\n";
-    if(op == And)
+    if(op == Nor)
+    {
+        std::cout << "Op: nor\n";
+
+    }
+    else if(op == Sll)
+    {
+        std::cout << "Op: sll\n";
+
+    }
+    else if(op == Slr)
+    {
+        std::cout << "Op: slr\n";
+
+    }
+    else if(op == And)
     {
         std::cout << "Op: and\n";
 

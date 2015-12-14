@@ -16,7 +16,8 @@ public:
     {
         A,
         B,
-        Opcode
+        Opcode,
+        Shamt
 
     } Inputs;
 
@@ -33,7 +34,10 @@ public:
         Or = 1,
         Add = 2,
         Sub = 6,
-        Slt = 7
+        Slt = 7,
+        Nor = 8,
+        Sll = 9,
+        Slr = 10
 
     } Code;
 

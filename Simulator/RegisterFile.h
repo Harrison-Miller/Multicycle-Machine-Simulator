@@ -12,6 +12,8 @@ public:
 
     void print();
 
+    void printContents();
+
     typedef enum Inputs
     {
         ReadReg1,

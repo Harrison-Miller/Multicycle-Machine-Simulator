@@ -14,15 +14,22 @@ public:
 
     ControlUnit cpu;
 
+    Bus zerobus;
+
     AndGate PCWriteCond;
     OrGate PCWrite;
+    OrGate PCWriteF;
+    NotGate notzero;
+    AndGate bnqcond;
 
     MemoryUnit mmu;
     Bus mmuBus;
 
     InstructionRegister ir;
+    Bus functBus;
     Bus rtBus;
     Bus immBus;
+
 
     RegisterFile regs;
 
@@ -32,6 +39,7 @@ public:
     ALUControl aluControl;
 
     Multiplexer IorD;
+    Multiplexer RtisA;
     Multiplexer RegDst;
     Multiplexer MemtoReg;
     Multiplexer ALUSrcA;
@@ -41,7 +49,7 @@ public:
     Register PC;
     Bus pcBus;
     AndGate pcMask;
-    AndGate pcConcat;
+    OrGate pcConcat;
 
     Register memData;
     Register A;
